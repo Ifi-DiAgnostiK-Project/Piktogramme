@@ -1,5 +1,6 @@
 <!--
-@Beispiel1: ![Beispielzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg)
+@Beispiel1: ![Beispielzeichen](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg)
+
 -->
 
 # DiAgnostiK_Bilder_Test
