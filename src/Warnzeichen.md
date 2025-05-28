@@ -1,0 +1,1 @@
+[BGHM: Warnzeichen](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/warnzeichen)

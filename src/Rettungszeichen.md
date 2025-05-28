@@ -1,0 +1,1 @@
+[BGHM: Rettungszeichen](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/rettungszeichen)

@@ -1,0 +1,1 @@
+[BGHM: Kennzeichnung von Gefahrstoffen](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/kennzeichnung-von-gefahrstoffen)
