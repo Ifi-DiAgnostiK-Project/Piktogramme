@@ -1,0 +1,1 @@
+[BGHM: Piktogramme Leitern](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/piktogramme-leitern)

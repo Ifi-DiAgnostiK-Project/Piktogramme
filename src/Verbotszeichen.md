@@ -1,0 +1,1 @@
+[BGHM: Verbotszeichen](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/verbotszeichen)

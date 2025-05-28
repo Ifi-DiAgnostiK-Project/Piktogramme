@@ -1,0 +1,1 @@
+[BGHM: Gebotszeichen](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen/gebotszeichen)
