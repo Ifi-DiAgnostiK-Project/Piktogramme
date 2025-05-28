@@ -1,0 +1,23 @@
+[project]
+name = "download_images_from_web"
+version = "0.1.0"
+description = "zum downloaden von bildern anhand links in md dateien"
+authors = [
+    {name = "Volker Goehler",email = "volker.goehler@informatik.tu-freiberg.de"}
+]
+license = {text = "CC-BY-SA"}
+readme = "README.MD"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4 (>=4.12.0,<5.0.0)",
+    "requests (>=2.28.0,<3.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
