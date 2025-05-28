@@ -24,3 +24,7 @@ Geht nicht mit Markdown, da kann man html code nutzen. Aber: LiaScript skaliert 
 <img src="https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg" alt="Sicherheitszeichen" style="height:150px;"/>
 ```
 <img src="https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg" alt="Sicherheitszeichen" style="height:150px;"/>
+
+# Makro
+
+@Beispiel1
