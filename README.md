@@ -50,10 +50,10 @@ Alle Beispiele funktionieren nur mit LiaScript und nicht hier im Github! Bitte o
 - funktioniert auch außerhalb von LiaScript!
 
 ```md
-![Beispielzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg)
+![Beispielzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Richtungspfeil_Rechts.jpg?raw=true)
 ```
 
-![Beispielzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Richtungspfeil_Rechts.jpg)<!-- style="height: 10rem;" -->
+![Beispielzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Richtungspfeil_Rechts.jpg?raw=true)<!-- style="height: 10rem;" -->
 
 ### Skalierung
 
