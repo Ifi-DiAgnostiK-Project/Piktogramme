@@ -73,7 +73,7 @@ def process_folders(base_path):
 
     makros.append("\n-->\n")
 
-    return "\n".join(makros) + "".join(showcase)
+    return "\n".join(makros) + "\n".join(showcase)
 
 def process_file(parent_folder, makros, showcase):
     """This writes a makro and a showcase for all files in a given folder."""
