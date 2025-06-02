@@ -612,9 +612,9 @@ Die Anzeige benötigt LiaScript!
 
 ## Beispiel:
 
-`@Brandschutzzeichen.Brandbekämpfung(10)`
+`@Brandschutzzeichen.Brandbekaempfung(10)`
 
-@Brandschutzzeichen.Brandbekämpfung(10)
+@Brandschutzzeichen.Brandbekaempfung(10)
 
 `@Gefahrstoffe.Explosiv(10)`
 
@@ -622,12 +622,13 @@ Die Anzeige benötigt LiaScript!
 
 ## Bereiche und Befehle
 
+Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgelistet, die in dieser Sammlung enthalten sind.
+
 
 ### Leitern
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Leitern.Nur_eine_Person(10)|`Nur_eine_Person.jpg`|`@Leitern.Nur_eine_Person(10)`
 
 |@Leitern.Maximale_Belastung(10)|`Maximale_Belastung.jpg`|`@Leitern.Maximale_Belastung(10)`
@@ -665,7 +666,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)|`Mitführen_von_Hunden_verboten.jpg`|`@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)`
 
 |@Verbotszeichen.Allgemeines_Verbotszeichen(10)|`Allgemeines_Verbotszeichen.jpg`|`@Verbotszeichen.Allgemeines_Verbotszeichen(10)`
@@ -721,7 +721,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Gebotszeichen.Auffanggurte(10)|`Auffanggurte.jpg`|`@Gebotszeichen.Auffanggurte(10)`
 
 |@Gebotszeichen.Augenschutz(10)|`Augenschutz.jpg`|`@Gebotszeichen.Augenschutz(10)`
@@ -765,7 +764,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Rettungszeichen.Notruftelefon(10)|`Notruftelefon.jpg`|`@Rettungszeichen.Notruftelefon(10)`
 
 |@Rettungszeichen.Rettungsweg_Notausgang_links(10)|`Rettungsweg_Notausgang_links.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang_links(10)`
@@ -807,7 +805,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Brandschutzzeichen.Brandmelder(10)|`Brandmelder.jpg`|`@Brandschutzzeichen.Brandmelder(10)`
 
 |@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)|`Richtungspfeil_Rechts_unten.jpg`|`@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)`
@@ -829,7 +826,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Warnzeichen.Absturzgefahr(10)|`Absturzgefahr.jpg`|`@Warnzeichen.Absturzgefahr(10)`
 
 |@Warnzeichen.Schwebende_Last(10)|`Schwebende_Last.jpg`|`@Warnzeichen.Schwebende_Last(10)`
@@ -875,7 +871,6 @@ Die Anzeige benötigt LiaScript!
 
 |Bild|Name|Befehl|
 |---|---|---|
-
 |@Gefahrstoffe.Oxidierend(10)|`Oxidierend.gif`|`@Gefahrstoffe.Oxidierend(10)`
 
 |@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)|`Krebserregend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)`
