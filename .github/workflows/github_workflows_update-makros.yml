@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false # We'll use a separate token for pushing
+          persist-credentials: true
           fetch-depth: 0
 
       - name: Set up Python
@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          # Add any additional dependencies if your script needs them
 
       - name: Run create_makros.py
         run: python create_makros.py
