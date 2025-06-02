@@ -1,3 +1,4 @@
+import re
 import os
 
 ignore_dirs = ['Collections']
@@ -41,12 +42,20 @@ Die Anzeige benötigt LiaScript!
 
 ## Beispiel:
 
+`@Brandschutzzeichen.Brandbekämpfung(10)`
+
 @Brandschutzzeichen.Brandbekämpfung(10)
 
-`@Brandschutzzeichen.Brandbekämpfung(10)`
+`@Gefahrstoffe.Explosiv(10)`
+
+@Gefahrstoffe.Explosiv(10)
 
 ## Bereiche und Befehle
 '''
+
+UMLAUT_MAP = {
+    'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'Ä': 'Ae', 'Ö': 'Oe', 'Ü': 'Ue', 'ß': 'ss'
+}
 
 def process_folders(base_path):
     img_path = os.path.join(base_path, 'img')
@@ -67,10 +76,21 @@ def process_folders(base_path):
 def process_file(parent_folder, makros, showcase):
     """This writes a makro and a showcase for all files in a given folder."""
     for item in os.listdir(parent_folder):
-        filename = item.split('.')[0]
+        filename = get_name(item)
         entry = os.path.basename(parent_folder)
         makros.append(f'\n@{entry}.{filename}\n    @diagnostik_image({entry},{item},@0)\n@end\n')
         showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`\n")
+
+def get_name(filepath):
+    """this returns the name of the image file without the extension."""
+    filename = os.path.splitext(os.path.basename(filepath))[0]
+    pattern = '[' + ''.join(map(re.escape, UMLAUT_MAP.keys())) + ']'
+    filename = re.sub(pattern, replace_umlaut, filename)
+    return re.sub(r'[^a-zA-Z0-9_]', '_', filename)
+
+def replace_umlaut(match):
+            char = match.group(0)
+            return UMLAUT_MAP.get(char, char)
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
