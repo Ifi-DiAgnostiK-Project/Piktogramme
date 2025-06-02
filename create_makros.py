@@ -73,14 +73,14 @@ def process_folders(base_path):
 
     makros.append("\n-->\n")
 
-    return makros + showcase
+    return "\n".join(makros) + "".join(showcase)
 
 def process_file(parent_folder, makros, showcase):
     """This writes a makro and a showcase for all files in a given folder."""
     for item in os.listdir(parent_folder):
         filename = get_name(item)
         entry = os.path.basename(parent_folder)
-        makros.append(f'\n@{entry}.{filename}\n    @diagnostik_image({entry},{item},@0)\n@end\n')
+        makros.append(f'\n@{entry}.{filename}\n    @diagnostik_image({entry},{item},@0)\n@end')
         showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
 
 def get_name(filepath):
@@ -99,4 +99,4 @@ if __name__ == "__main__":
     text = process_folders(current_dir)
     makros_path = os.path.join(current_dir, "makros.md")
     with open(makros_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(text))
+        f.write(text)
