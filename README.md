@@ -4,20 +4,20 @@ version: 0.2.0
 comment: This repository is the collection of free images for the DiAgnostiK Project
 @import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
 
-@me: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/README.md
+
 -->
 
 # Badges
 
 ![Update makros.md on push](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/actions/workflows/github_workflows_update-makros.yml/badge.svg)
 
-[![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?@me?raw=true)
+[![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/README.md?raw=true)
 
-[![LiaScript LiveEditor](https://raw.githubusercontent.com/LiaScript/LiaScript/refs/heads/development/badges/editor.svg)](https://liascript.github.io/LiveEditor/?/show/file/@me?raw=true)
+[![LiaScript LiveEditor](https://raw.githubusercontent.com/LiaScript/LiaScript/refs/heads/development/badges/editor.svg)](https://liascript.github.io/LiveEditor/?/show/file/https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/README.md?raw=true)
 
-[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](@me)
+[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/README.md)
 
-[![Rohinhalt](https://img.shields.io/badge/Raw-Inhalt-blue)](@me?raw=true)
+[![Rohinhalt](https://img.shields.io/badge/Raw-Inhalt-blue)](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/README.md?raw=true)
 
 
 # DiAgnostiK_Bilder_Test
