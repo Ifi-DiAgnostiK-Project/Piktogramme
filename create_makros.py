@@ -81,7 +81,7 @@ def process_file(parent_folder, makros, showcase):
         filename = get_name(item)
         entry = os.path.basename(parent_folder)
         makros.append(f'\n@{entry}.{filename}\n    @diagnostik_image({entry},{item},@0)\n@end\n')
-        showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`\n")
+        showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
 
 def get_name(filepath):
     """this returns the name of the image file without the extension."""
