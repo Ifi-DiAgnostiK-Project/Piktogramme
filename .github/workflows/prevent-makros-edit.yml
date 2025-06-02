@@ -1,0 +1,20 @@
+name: Prevent manual makros.md changes
+
+on:
+  pull_request:
+    paths:
+      - 'makros.md'
+
+jobs:
+  block_manual_edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check if makros.md was modified by bot
+        run: |
+          AUTHOR=$(git log -1 --pretty=format:'%an' -- makros.md)
+          if [[ "$AUTHOR" != "github-actions[bot]" ]]; then
+            echo "makros.md can only be updated by GitHub Actions."
+            exit 1
+          fi
