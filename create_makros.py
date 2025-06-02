@@ -42,15 +42,17 @@ Die Anzeige benötigt LiaScript!
 
 ## Beispiel:
 
-`@Brandschutzzeichen.Brandbekämpfung(10)`
+`@Brandschutzzeichen.Brandbekaempfung(10)`
 
-@Brandschutzzeichen.Brandbekämpfung(10)
+@Brandschutzzeichen.Brandbekaempfung(10)
 
 `@Gefahrstoffe.Explosiv(10)`
 
 @Gefahrstoffe.Explosiv(10)
 
 ## Bereiche und Befehle
+
+Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgelistet, die in dieser Sammlung enthalten sind.
 '''
 
 UMLAUT_MAP = {
@@ -66,7 +68,7 @@ def process_folders(base_path):
         full_path = os.path.join(img_path, entry)
 
         if os.path.isdir(full_path) and entry not in ignore_dirs:
-            showcase.append(f"\n### {entry}\n\n|Bild|Name|Befehl|\n|---|---|---|\n")
+            showcase.append(f"\n### {entry}\n\n|Bild|Name|Befehl|\n|---|---|---|")
             process_file(full_path, makros, showcase)
 
     makros.append("\n-->\n")
