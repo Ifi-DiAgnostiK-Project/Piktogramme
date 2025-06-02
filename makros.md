@@ -33,7 +33,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Leitern.Nicht_übersteigen
+@Leitern.Nicht_uebersteigen
     @diagnostik_image(Leitern,Nicht_übersteigen.jpg,@0)
 @end
 
@@ -48,7 +48,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Leitern.Ebener_und_tragfähiger_Untergrund
+@Leitern.Ebener_und_tragfaehiger_Untergrund
     @diagnostik_image(Leitern,Ebener_und_tragfähiger_Untergrund.jpg,@0)
 @end
 
@@ -63,7 +63,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Leitern.Nur_an_sichere_Flächen_anlegen
+@Leitern.Nur_an_sichere_Flaechen_anlegen
     @diagnostik_image(Leitern,Nur_an_sichere_Flächen_anlegen.jpg,@0)
 @end
 
@@ -73,7 +73,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Leitern.Nicht_übertreten
+@Leitern.Nicht_uebertreten
     @diagnostik_image(Leitern,Nicht_übertreten.jpg,@0)
 @end
 
@@ -83,7 +83,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Leitern.Mindestens_1_m_Überstand
+@Leitern.Mindestens_1_m_Ueberstand
     @diagnostik_image(Leitern,Mindestens_1_m_Überstand.jpg,@0)
 @end
 
@@ -93,7 +93,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Mitführen_von_Hunden_verboten
+@Verbotszeichen.Mitfuehren_von_Hunden_verboten
     @diagnostik_image(Verbotszeichen,Mitführen_von_Hunden_verboten.jpg,@0)
 @end
 
@@ -113,7 +113,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Betreten_der_Fläche_verboten
+@Verbotszeichen.Betreten_der_Flaeche_verboten
     @diagnostik_image(Verbotszeichen,Betreten_der_Fläche_verboten.jpg,@0)
 @end
 
@@ -123,7 +123,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Für_Fußgänger_verboten
+@Verbotszeichen.Fuer_Fussgaenger_verboten
     @diagnostik_image(Verbotszeichen,Für_Fußgänger_verboten.jpg,@0)
 @end
 
@@ -133,7 +133,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Mit_Wasser_löschen_verboten
+@Verbotszeichen.Mit_Wasser_loeschen_verboten
     @diagnostik_image(Verbotszeichen,Mit_Wasser_löschen_verboten.jpg,@0)
 @end
 
@@ -153,7 +153,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Berühren_verboten
+@Verbotszeichen.Beruehren_verboten
     @diagnostik_image(Verbotszeichen,Berühren_verboten.jpg,@0)
 @end
 
@@ -163,12 +163,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Implantaten
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten
     @diagnostik_image(Verbotszeichen,Kein_Zutritt_für_Personen_mit_Implantaten.jpg,@0)
 @end
 
 
-@Verbotszeichen.Besteigen_für_Unbefugte_verboten
+@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten
     @diagnostik_image(Verbotszeichen,Besteigen_für_Unbefugte_verboten.jpg,@0)
 @end
 
@@ -183,22 +183,22 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Verbotszeichen.Für_Flurförderzeuge_verboten
+@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten
     @diagnostik_image(Verbotszeichen,Für_Flurförderzeuge_verboten.jpg,@0)
 @end
 
 
-@Verbotszeichen.Zutritt_für_Unbefugte_verboten
+@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten
     @diagnostik_image(Verbotszeichen,Zutritt_für_Unbefugte_verboten.jpg,@0)
 @end
 
 
-@Verbotszeichen.Personenbeförderung_verboten
+@Verbotszeichen.Personenbefoerderung_verboten
     @diagnostik_image(Verbotszeichen,Personenbeförderung_verboten.jpg,@0)
 @end
 
 
-@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Herzschrittmacher
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher
     @diagnostik_image(Verbotszeichen,Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg,@0)
 @end
 
@@ -228,7 +228,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gebotszeichen.Schutzschürze
+@Gebotszeichen.Schutzschuerze
     @diagnostik_image(Gebotszeichen,Schutzschürze.jpg,@0)
 @end
 
@@ -253,7 +253,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gebotszeichen.Rückhaltesystem
+@Gebotszeichen.Rueckhaltesystem
     @diagnostik_image(Gebotszeichen,Rückhaltesystem.jpg,@0)
 @end
 
@@ -273,7 +273,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gebotszeichen.Fußschutz
+@Gebotszeichen.Fussschutz
     @diagnostik_image(Gebotszeichen,Fußschutz.jpg,@0)
 @end
 
@@ -283,12 +283,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gebotszeichen.Übergang
+@Gebotszeichen.Uebergang
     @diagnostik_image(Gebotszeichen,Übergang.jpg,@0)
 @end
 
 
-@Gebotszeichen.Hände_waschen
+@Gebotszeichen.Haende_waschen
     @diagnostik_image(Gebotszeichen,Hände_waschen.jpg,@0)
 @end
 
@@ -298,12 +298,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gebotszeichen.Gehörschutz
+@Gebotszeichen.Gehoerschutz
     @diagnostik_image(Gebotszeichen,Gehörschutz.jpg,@0)
 @end
 
 
-@Gebotszeichen.Fußgängerweg
+@Gebotszeichen.Fussgaengerweg
     @diagnostik_image(Gebotszeichen,Fußgängerweg.jpg,@0)
 @end
 
@@ -333,7 +333,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Rettungszeichen.Augenspüleinrichtung
+@Rettungszeichen.Augenspueleinrichtung
     @diagnostik_image(Rettungszeichen,Augenspüleinrichtung.jpg,@0)
 @end
 
@@ -373,7 +373,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Rettungszeichen.Öffentliche_Rettungsausrüstung
+@Rettungszeichen.Oeffentliche_Rettungsausruestung
     @diagnostik_image(Rettungszeichen,Öffentliche_Rettungsausrüstung.jpg,@0)
 @end
 
@@ -423,7 +423,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Brandschutzzeichen.Löschschlauch
+@Brandschutzzeichen.Loeschschlauch
     @diagnostik_image(Brandschutzzeichen,Löschschlauch.jpg,@0)
 @end
 
@@ -433,12 +433,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Brandschutzzeichen.Brandbekämpfung
+@Brandschutzzeichen.Brandbekaempfung
     @diagnostik_image(Brandschutzzeichen,Brandbekämpfung.jpg,@0)
 @end
 
 
-@Brandschutzzeichen.Feuerlöscher
+@Brandschutzzeichen.Feuerloescher
     @diagnostik_image(Brandschutzzeichen,Feuerlöscher.jpg,@0)
 @end
 
@@ -458,7 +458,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Heiße_Oberfläche
+@Warnzeichen.Heisse_Oberflaeche
     @diagnostik_image(Warnzeichen,Heiße_Oberfläche.jpg,@0)
 @end
 
@@ -468,12 +468,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Flurförderzeugen
+@Warnzeichen.Flurfoerderzeugen
     @diagnostik_image(Warnzeichen,Flurförderzeugen.jpg,@0)
 @end
 
 
-@Warnzeichen.Ätzende_Stoffe
+@Warnzeichen.Aetzende_Stoffe
     @diagnostik_image(Warnzeichen,Ätzende_Stoffe.jpg,@0)
 @end
 
@@ -483,7 +483,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Brandfördernde_Stoffe
+@Warnzeichen.Brandfoerdernde_Stoffe
     @diagnostik_image(Warnzeichen,Brandfördernde_Stoffe.jpg,@0)
 @end
 
@@ -498,7 +498,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Explosionsfähige_Stoffe
+@Warnzeichen.Explosionsfaehige_Stoffe
     @diagnostik_image(Warnzeichen,Explosionsfähige_Stoffe.jpg,@0)
 @end
 
@@ -518,7 +518,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Explosionsfähige_Atmosphäre
+@Warnzeichen.Explosionsfaehige_Atmosphaere
     @diagnostik_image(Warnzeichen,Explosionsfähige_Atmosphäre.jpg,@0)
 @end
 
@@ -528,7 +528,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Warnzeichen.Biogefährdung
+@Warnzeichen.Biogefaehrdung
     @diagnostik_image(Warnzeichen,Biogefährdung.jpg,@0)
 @end
 
@@ -548,12 +548,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gefahrstoffe.Krebserregend_Gesundheitsschädlich
+@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich
     @diagnostik_image(Gefahrstoffe,Krebserregend_Gesundheitsschädlich.gif,@0)
 @end
 
 
-@Gefahrstoffe.Reizend_Gesundheitsschädlich
+@Gefahrstoffe.Reizend_Gesundheitsschaedlich
     @diagnostik_image(Gefahrstoffe,Reizend_Gesundheitsschädlich.gif,@0)
 @end
 
@@ -563,12 +563,12 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gefahrstoffe.Entzündlich
+@Gefahrstoffe.Entzuendlich
     @diagnostik_image(Gefahrstoffe,Entzündlich.gif,@0)
 @end
 
 
-@Gefahrstoffe.Ätzend_Reizend
+@Gefahrstoffe.Aetzend_Reizend
     @diagnostik_image(Gefahrstoffe,Ätzend_Reizend.gif,@0)
 @end
 
@@ -583,7 +583,7 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 @end
 
 
-@Gefahrstoffe.Umweltgefährlich
+@Gefahrstoffe.Umweltgefaehrlich
     @diagnostik_image(Gefahrstoffe,Umweltgefährlich.gif,@0)
 @end
 
@@ -612,9 +612,13 @@ Die Anzeige benötigt LiaScript!
 
 ## Beispiel:
 
+`@Brandschutzzeichen.Brandbekämpfung(10)`
+
 @Brandschutzzeichen.Brandbekämpfung(10)
 
-`@Brandschutzzeichen.Brandbekämpfung(10)`
+`@Gefahrstoffe.Explosiv(10)`
+
+@Gefahrstoffe.Explosiv(10)
 
 ## Bereiche und Befehle
 
@@ -632,27 +636,27 @@ Die Anzeige benötigt LiaScript!
 
 |@Leitern.Witterungsbedingungen(10)|`Witterungsbedingungen.jpg`|`@Leitern.Witterungsbedingungen(10)`
 
-|@Leitern.Nicht_übersteigen(10)|`Nicht_übersteigen.jpg`|`@Leitern.Nicht_übersteigen(10)`
+|@Leitern.Nicht_uebersteigen(10)|`Nicht_übersteigen.jpg`|`@Leitern.Nicht_uebersteigen(10)`
 
 |@Leitern.Anlegewinkel_beachten(10)|`Anlegewinkel_beachten.jpg`|`@Leitern.Anlegewinkel_beachten(10)`
 
 |@Leitern.Nicht_als_Anlegeleiter_nutzen(10)|`Nicht_als_Anlegeleiter_nutzen.jpg`|`@Leitern.Nicht_als_Anlegeleiter_nutzen(10)`
 
-|@Leitern.Ebener_und_tragfähiger_Untergrund(10)|`Ebener_und_tragfähiger_Untergrund.jpg`|`@Leitern.Ebener_und_tragfähiger_Untergrund(10)`
+|@Leitern.Ebener_und_tragfaehiger_Untergrund(10)|`Ebener_und_tragfähiger_Untergrund.jpg`|`@Leitern.Ebener_und_tragfaehiger_Untergrund(10)`
 
 |@Leitern.Spreizsicherung_einlegen(10)|`Spreizsicherung_einlegen.jpg`|`@Leitern.Spreizsicherung_einlegen(10)`
 
 |@Leitern.Nicht_hinauslehnen(10)|`Nicht_hinauslehnen.jpg`|`@Leitern.Nicht_hinauslehnen(10)`
 
-|@Leitern.Nur_an_sichere_Flächen_anlegen(10)|`Nur_an_sichere_Flächen_anlegen.jpg`|`@Leitern.Nur_an_sichere_Flächen_anlegen(10)`
+|@Leitern.Nur_an_sichere_Flaechen_anlegen(10)|`Nur_an_sichere_Flächen_anlegen.jpg`|`@Leitern.Nur_an_sichere_Flaechen_anlegen(10)`
 
 |@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)|`Die_obersten_4_Sprossen_nicht_besteigen.jpg`|`@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)`
 
-|@Leitern.Nicht_übertreten(10)|`Nicht_übertreten.jpg`|`@Leitern.Nicht_übertreten(10)`
+|@Leitern.Nicht_uebertreten(10)|`Nicht_übertreten.jpg`|`@Leitern.Nicht_uebertreten(10)`
 
 |@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)|`Stahlspitzen_auf_nachgiebigem_Untergrund.jpg`|`@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)`
 
-|@Leitern.Mindestens_1_m_Überstand(10)|`Mindestens_1_m_Überstand.jpg`|`@Leitern.Mindestens_1_m_Überstand(10)`
+|@Leitern.Mindestens_1_m_Ueberstand(10)|`Mindestens_1_m_Überstand.jpg`|`@Leitern.Mindestens_1_m_Ueberstand(10)`
 
 |@Leitern.Gespannte_Spreizvorrichtung(10)|`Gespannte_Spreizvorrichtung.jpg`|`@Leitern.Gespannte_Spreizvorrichtung(10)`
 
@@ -662,7 +666,7 @@ Die Anzeige benötigt LiaScript!
 |Bild|Name|Befehl|
 |---|---|---|
 
-|@Verbotszeichen.Mitführen_von_Hunden_verboten(10)|`Mitführen_von_Hunden_verboten.jpg`|`@Verbotszeichen.Mitführen_von_Hunden_verboten(10)`
+|@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)|`Mitführen_von_Hunden_verboten.jpg`|`@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)`
 
 |@Verbotszeichen.Allgemeines_Verbotszeichen(10)|`Allgemeines_Verbotszeichen.jpg`|`@Verbotszeichen.Allgemeines_Verbotszeichen(10)`
 
@@ -670,15 +674,15 @@ Die Anzeige benötigt LiaScript!
 
 |@Verbotszeichen.Rauchen_verboten(10)|`Rauchen_verboten.jpg`|`@Verbotszeichen.Rauchen_verboten(10)`
 
-|@Verbotszeichen.Betreten_der_Fläche_verboten(10)|`Betreten_der_Fläche_verboten.jpg`|`@Verbotszeichen.Betreten_der_Fläche_verboten(10)`
+|@Verbotszeichen.Betreten_der_Flaeche_verboten(10)|`Betreten_der_Fläche_verboten.jpg`|`@Verbotszeichen.Betreten_der_Flaeche_verboten(10)`
 
 |@Verbotszeichen.Laufen_verboten(10)|`Laufen_verboten.jpg`|`@Verbotszeichen.Laufen_verboten(10)`
 
-|@Verbotszeichen.Für_Fußgänger_verboten(10)|`Für_Fußgänger_verboten.jpg`|`@Verbotszeichen.Für_Fußgänger_verboten(10)`
+|@Verbotszeichen.Fuer_Fussgaenger_verboten(10)|`Für_Fußgänger_verboten.jpg`|`@Verbotszeichen.Fuer_Fussgaenger_verboten(10)`
 
 |@Verbotszeichen.Hineinfassen_verboten(10)|`Hineinfassen_verboten.jpg`|`@Verbotszeichen.Hineinfassen_verboten(10)`
 
-|@Verbotszeichen.Mit_Wasser_löschen_verboten(10)|`Mit_Wasser_löschen_verboten.jpg`|`@Verbotszeichen.Mit_Wasser_löschen_verboten(10)`
+|@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)|`Mit_Wasser_löschen_verboten.jpg`|`@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)`
 
 |@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)|`Benutzen_von_Handschuhen_verboten.jpg`|`@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)`
 
@@ -686,25 +690,25 @@ Die Anzeige benötigt LiaScript!
 
 |@Verbotszeichen.Keine_schwere_Last(10)|`Keine_schwere_Last.jpg`|`@Verbotszeichen.Keine_schwere_Last(10)`
 
-|@Verbotszeichen.Berühren_verboten(10)|`Berühren_verboten.jpg`|`@Verbotszeichen.Berühren_verboten(10)`
+|@Verbotszeichen.Beruehren_verboten(10)|`Berühren_verboten.jpg`|`@Verbotszeichen.Beruehren_verboten(10)`
 
 |@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)|`Eingeschaltete_Mobiltelefone_verboten.jpg`|`@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)`
 
-|@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Implantaten(10)|`Kein_Zutritt_für_Personen_mit_Implantaten.jpg`|`@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Implantaten(10)`
+|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)|`Kein_Zutritt_für_Personen_mit_Implantaten.jpg`|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)`
 
-|@Verbotszeichen.Besteigen_für_Unbefugte_verboten(10)|`Besteigen_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Besteigen_für_Unbefugte_verboten(10)`
+|@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)|`Besteigen_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)`
 
 |@Verbotszeichen.Schalten_verboten(10)|`Schalten_verboten.jpg`|`@Verbotszeichen.Schalten_verboten(10)`
 
 |@Verbotszeichen.Kein_Trinkwasser(10)|`Kein_Trinkwasser.jpg`|`@Verbotszeichen.Kein_Trinkwasser(10)`
 
-|@Verbotszeichen.Für_Flurförderzeuge_verboten(10)|`Für_Flurförderzeuge_verboten.jpg`|`@Verbotszeichen.Für_Flurförderzeuge_verboten(10)`
+|@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)|`Für_Flurförderzeuge_verboten.jpg`|`@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)`
 
-|@Verbotszeichen.Zutritt_für_Unbefugte_verboten(10)|`Zutritt_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Zutritt_für_Unbefugte_verboten(10)`
+|@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)|`Zutritt_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)`
 
-|@Verbotszeichen.Personenbeförderung_verboten(10)|`Personenbeförderung_verboten.jpg`|`@Verbotszeichen.Personenbeförderung_verboten(10)`
+|@Verbotszeichen.Personenbefoerderung_verboten(10)|`Personenbeförderung_verboten.jpg`|`@Verbotszeichen.Personenbefoerderung_verboten(10)`
 
-|@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Herzschrittmacher(10)|`Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg`|`@Verbotszeichen.Kein_Zutritt_für_Personen_mit_Herzschrittmacher(10)`
+|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)|`Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg`|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)`
 
 |@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)|`Mit_Wasser_spritzen_verboten.jpg`|`@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)`
 
@@ -722,7 +726,7 @@ Die Anzeige benötigt LiaScript!
 
 |@Gebotszeichen.Augenschutz(10)|`Augenschutz.jpg`|`@Gebotszeichen.Augenschutz(10)`
 
-|@Gebotszeichen.Schutzschürze(10)|`Schutzschürze.jpg`|`@Gebotszeichen.Schutzschürze(10)`
+|@Gebotszeichen.Schutzschuerze(10)|`Schutzschürze.jpg`|`@Gebotszeichen.Schutzschuerze(10)`
 
 |@Gebotszeichen.Kopfschutz(10)|`Kopfschutz.jpg`|`@Gebotszeichen.Kopfschutz(10)`
 
@@ -732,7 +736,7 @@ Die Anzeige benötigt LiaScript!
 
 |@Gebotszeichen.Schutzkleidung(10)|`Schutzkleidung.jpg`|`@Gebotszeichen.Schutzkleidung(10)`
 
-|@Gebotszeichen.Rückhaltesystem(10)|`Rückhaltesystem.jpg`|`@Gebotszeichen.Rückhaltesystem(10)`
+|@Gebotszeichen.Rueckhaltesystem(10)|`Rückhaltesystem.jpg`|`@Gebotszeichen.Rueckhaltesystem(10)`
 
 |@Gebotszeichen.Handlauf(10)|`Handlauf.jpg`|`@Gebotszeichen.Handlauf(10)`
 
@@ -740,19 +744,19 @@ Die Anzeige benötigt LiaScript!
 
 |@Gebotszeichen.Atemschutz(10)|`Atemschutz.jpg`|`@Gebotszeichen.Atemschutz(10)`
 
-|@Gebotszeichen.Fußschutz(10)|`Fußschutz.jpg`|`@Gebotszeichen.Fußschutz(10)`
+|@Gebotszeichen.Fussschutz(10)|`Fußschutz.jpg`|`@Gebotszeichen.Fussschutz(10)`
 
 |@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)|`Wartung_oder_Reparatur_freischalten.jpg`|`@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)`
 
-|@Gebotszeichen.Übergang(10)|`Übergang.jpg`|`@Gebotszeichen.Übergang(10)`
+|@Gebotszeichen.Uebergang(10)|`Übergang.jpg`|`@Gebotszeichen.Uebergang(10)`
 
-|@Gebotszeichen.Hände_waschen(10)|`Hände_waschen.jpg`|`@Gebotszeichen.Hände_waschen(10)`
+|@Gebotszeichen.Haende_waschen(10)|`Hände_waschen.jpg`|`@Gebotszeichen.Haende_waschen(10)`
 
 |@Gebotszeichen.Handschuh(10)|`Handschuh.jpg`|`@Gebotszeichen.Handschuh(10)`
 
-|@Gebotszeichen.Gehörschutz(10)|`Gehörschutz.jpg`|`@Gebotszeichen.Gehörschutz(10)`
+|@Gebotszeichen.Gehoerschutz(10)|`Gehörschutz.jpg`|`@Gebotszeichen.Gehoerschutz(10)`
 
-|@Gebotszeichen.Fußgängerweg(10)|`Fußgängerweg.jpg`|`@Gebotszeichen.Fußgängerweg(10)`
+|@Gebotszeichen.Fussgaengerweg(10)|`Fußgängerweg.jpg`|`@Gebotszeichen.Fussgaengerweg(10)`
 
 |@Gebotszeichen.Ausrufezeichen(10)|`Ausrufezeichen.jpg`|`@Gebotszeichen.Ausrufezeichen(10)`
 
@@ -770,7 +774,7 @@ Die Anzeige benötigt LiaScript!
 
 |@Rettungszeichen.Rettungsausstieg(10)|`Rettungsausstieg.jpg`|`@Rettungszeichen.Rettungsausstieg(10)`
 
-|@Rettungszeichen.Augenspüleinrichtung(10)|`Augenspüleinrichtung.jpg`|`@Rettungszeichen.Augenspüleinrichtung(10)`
+|@Rettungszeichen.Augenspueleinrichtung(10)|`Augenspüleinrichtung.jpg`|`@Rettungszeichen.Augenspueleinrichtung(10)`
 
 |@Rettungszeichen.Rettungsweg_Notausgang(10)|`Rettungsweg_Notausgang.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang(10)`
 
@@ -786,7 +790,7 @@ Die Anzeige benötigt LiaScript!
 
 |@Rettungszeichen.Richtungspfeil_rechts(10)|`Richtungspfeil_rechts.jpg`|`@Rettungszeichen.Richtungspfeil_rechts(10)`
 
-|@Rettungszeichen.Öffentliche_Rettungsausrüstung(10)|`Öffentliche_Rettungsausrüstung.jpg`|`@Rettungszeichen.Öffentliche_Rettungsausrüstung(10)`
+|@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)|`Öffentliche_Rettungsausrüstung.jpg`|`@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)`
 
 |@Rettungszeichen.Sammelstelle(10)|`Sammelstelle.jpg`|`@Rettungszeichen.Sammelstelle(10)`
 
@@ -812,13 +816,13 @@ Die Anzeige benötigt LiaScript!
 
 |@Brandschutzzeichen.Feuerleiter(10)|`Feuerleiter.jpg`|`@Brandschutzzeichen.Feuerleiter(10)`
 
-|@Brandschutzzeichen.Löschschlauch(10)|`Löschschlauch.jpg`|`@Brandschutzzeichen.Löschschlauch(10)`
+|@Brandschutzzeichen.Loeschschlauch(10)|`Löschschlauch.jpg`|`@Brandschutzzeichen.Loeschschlauch(10)`
 
 |@Brandschutzzeichen.Richtungspfeil_Rechts(10)|`Richtungspfeil_Rechts.jpg`|`@Brandschutzzeichen.Richtungspfeil_Rechts(10)`
 
-|@Brandschutzzeichen.Brandbekämpfung(10)|`Brandbekämpfung.jpg`|`@Brandschutzzeichen.Brandbekämpfung(10)`
+|@Brandschutzzeichen.Brandbekaempfung(10)|`Brandbekämpfung.jpg`|`@Brandschutzzeichen.Brandbekaempfung(10)`
 
-|@Brandschutzzeichen.Feuerlöscher(10)|`Feuerlöscher.jpg`|`@Brandschutzzeichen.Feuerlöscher(10)`
+|@Brandschutzzeichen.Feuerloescher(10)|`Feuerlöscher.jpg`|`@Brandschutzzeichen.Feuerloescher(10)`
 
 
 ### Warnzeichen
@@ -832,23 +836,23 @@ Die Anzeige benötigt LiaScript!
 
 |@Warnzeichen.Radioaktive_Stoffe(10)|`Radioaktive_Stoffe.jpg`|`@Warnzeichen.Radioaktive_Stoffe(10)`
 
-|@Warnzeichen.Heiße_Oberfläche(10)|`Heiße_Oberfläche.jpg`|`@Warnzeichen.Heiße_Oberfläche(10)`
+|@Warnzeichen.Heisse_Oberflaeche(10)|`Heiße_Oberfläche.jpg`|`@Warnzeichen.Heisse_Oberflaeche(10)`
 
 |@Warnzeichen.Nicht_ionisierende_Strahlung(10)|`Nicht_ionisierende_Strahlung.jpg`|`@Warnzeichen.Nicht_ionisierende_Strahlung(10)`
 
-|@Warnzeichen.Flurförderzeugen(10)|`Flurförderzeugen.jpg`|`@Warnzeichen.Flurförderzeugen(10)`
+|@Warnzeichen.Flurfoerderzeugen(10)|`Flurförderzeugen.jpg`|`@Warnzeichen.Flurfoerderzeugen(10)`
 
-|@Warnzeichen.Ätzende_Stoffe(10)|`Ätzende_Stoffe.jpg`|`@Warnzeichen.Ätzende_Stoffe(10)`
+|@Warnzeichen.Aetzende_Stoffe(10)|`Ätzende_Stoffe.jpg`|`@Warnzeichen.Aetzende_Stoffe(10)`
 
 |@Warnzeichen.Magnetische_Felder(10)|`Magnetische_Felder.jpg`|`@Warnzeichen.Magnetische_Felder(10)`
 
-|@Warnzeichen.Brandfördernde_Stoffe(10)|`Brandfördernde_Stoffe.jpg`|`@Warnzeichen.Brandfördernde_Stoffe(10)`
+|@Warnzeichen.Brandfoerdernde_Stoffe(10)|`Brandfördernde_Stoffe.jpg`|`@Warnzeichen.Brandfoerdernde_Stoffe(10)`
 
 |@Warnzeichen.Laserstrahl(10)|`Laserstrahl.jpg`|`@Warnzeichen.Laserstrahl(10)`
 
 |@Warnzeichen.Allgemeines_Warnzeichen(10)|`Allgemeines_Warnzeichen.jpg`|`@Warnzeichen.Allgemeines_Warnzeichen(10)`
 
-|@Warnzeichen.Explosionsfähige_Stoffe(10)|`Explosionsfähige_Stoffe.jpg`|`@Warnzeichen.Explosionsfähige_Stoffe(10)`
+|@Warnzeichen.Explosionsfaehige_Stoffe(10)|`Explosionsfähige_Stoffe.jpg`|`@Warnzeichen.Explosionsfaehige_Stoffe(10)`
 
 |@Warnzeichen.AutomatischeR_Anlauf(10)|`AutomatischeR_Anlauf.jpg`|`@Warnzeichen.AutomatischeR_Anlauf(10)`
 
@@ -856,11 +860,11 @@ Die Anzeige benötigt LiaScript!
 
 |@Warnzeichen.Rutschgefahr(10)|`Rutschgefahr.jpg`|`@Warnzeichen.Rutschgefahr(10)`
 
-|@Warnzeichen.Explosionsfähige_Atmosphäre(10)|`Explosionsfähige_Atmosphäre.jpg`|`@Warnzeichen.Explosionsfähige_Atmosphäre(10)`
+|@Warnzeichen.Explosionsfaehige_Atmosphaere(10)|`Explosionsfähige_Atmosphäre.jpg`|`@Warnzeichen.Explosionsfaehige_Atmosphaere(10)`
 
 |@Warnzeichen.Giftige_Stoffe(10)|`Giftige_Stoffe.jpg`|`@Warnzeichen.Giftige_Stoffe(10)`
 
-|@Warnzeichen.Biogefährdung(10)|`Biogefährdung.jpg`|`@Warnzeichen.Biogefährdung(10)`
+|@Warnzeichen.Biogefaehrdung(10)|`Biogefährdung.jpg`|`@Warnzeichen.Biogefaehrdung(10)`
 
 |@Warnzeichen.Elektrische_Spannung(10)|`Elektrische_Spannung.jpg`|`@Warnzeichen.Elektrische_Spannung(10)`
 
@@ -874,18 +878,18 @@ Die Anzeige benötigt LiaScript!
 
 |@Gefahrstoffe.Oxidierend(10)|`Oxidierend.gif`|`@Gefahrstoffe.Oxidierend(10)`
 
-|@Gefahrstoffe.Krebserregend_Gesundheitsschädlich(10)|`Krebserregend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Krebserregend_Gesundheitsschädlich(10)`
+|@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)|`Krebserregend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)`
 
-|@Gefahrstoffe.Reizend_Gesundheitsschädlich(10)|`Reizend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Reizend_Gesundheitsschädlich(10)`
+|@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)|`Reizend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)`
 
 |@Gefahrstoffe.Komprimierte_Gase(10)|`Komprimierte_Gase.gif`|`@Gefahrstoffe.Komprimierte_Gase(10)`
 
-|@Gefahrstoffe.Entzündlich(10)|`Entzündlich.gif`|`@Gefahrstoffe.Entzündlich(10)`
+|@Gefahrstoffe.Entzuendlich(10)|`Entzündlich.gif`|`@Gefahrstoffe.Entzuendlich(10)`
 
-|@Gefahrstoffe.Ätzend_Reizend(10)|`Ätzend_Reizend.gif`|`@Gefahrstoffe.Ätzend_Reizend(10)`
+|@Gefahrstoffe.Aetzend_Reizend(10)|`Ätzend_Reizend.gif`|`@Gefahrstoffe.Aetzend_Reizend(10)`
 
 |@Gefahrstoffe.Explosiv(10)|`Explosiv.gif`|`@Gefahrstoffe.Explosiv(10)`
 
 |@Gefahrstoffe.Giftig_Sehr_giftig(10)|`Giftig_Sehr_giftig.gif`|`@Gefahrstoffe.Giftig_Sehr_giftig(10)`
 
-|@Gefahrstoffe.Umweltgefährlich(10)|`Umweltgefährlich.gif`|`@Gefahrstoffe.Umweltgefährlich(10)`
+|@Gefahrstoffe.Umweltgefaehrlich(10)|`Umweltgefährlich.gif`|`@Gefahrstoffe.Umweltgefaehrlich(10)`
