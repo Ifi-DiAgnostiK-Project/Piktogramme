@@ -9,13 +9,9 @@ email: volker.goehler@informatik.tu-freiberg
 version: 0.2.0
 repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test 
 
-@diagnostik_image
-    <img 
-        src="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img/@0/@1"
-        alt="@1"
-        style="height: @2rem"
-    >
-@end
+@diagnostik_url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img
+
+@diagnostik_image: <img src="@0/@1" alt="@1" style="height: @2rem">
 '''
 
 location = 'https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md'
@@ -34,21 +30,30 @@ how_to_use = f'''
 # Anleitung
 
 Der Befehl zum einbinden eines Bildes lautet `@<Bereich>.<Name>(Größe)`
+Hängt man statt der Größe `.src` an den Befehl an, so wird der Link zum Bild angezeigt.
 Der Bereich ist der Ordnername, in dem sich das Bild befindet.
 Der Name ist der Dateiname ohne Endung.
-Alle Bereiche und Befehle um alle Bilder zu laden sind in den Tabellen weiter unten abgebildet.
+Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabellen weiter unten abgebildet.
 Die Größe ist in Zeilen angegeben, die das Bild hoch sein soll.
 Die Anzeige benötigt LiaScript!
 
-## Beispiel:
+## Beispiel
 
 `@Brandschutzzeichen.Brandbekaempfung(10)`
 
 @Brandschutzzeichen.Brandbekaempfung(10)
 
+`@Brandschutzzeichen.Brandbekaempfung.src`
+
+@Brandschutzzeichen.Brandbekaempfung.src
+
 `@Gefahrstoffe.Explosiv(10)`
 
 @Gefahrstoffe.Explosiv(10)
+
+`@Gefahrstoffe.Explosiv.src`
+
+@Gefahrstoffe.Explosiv.src
 
 ## Bereiche und Befehle
 
@@ -80,7 +85,10 @@ def process_file(parent_folder, makros, showcase):
     for item in os.listdir(parent_folder):
         filename = get_name(item)
         entry = os.path.basename(parent_folder)
-        makros.append(f'\n@{entry}.{filename}\n    @diagnostik_image({entry},{item},@0)\n@end')
+        makros.append("")
+        makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
+        makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
+
         showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
 
 def get_name(filepath):
