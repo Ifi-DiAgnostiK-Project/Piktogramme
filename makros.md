@@ -405,8 +405,8 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
     @diagnostik_image(Warnzeichen,Explosionsfähige_Stoffe.jpg,@0)
 @end
 
-@Warnzeichen.AutomatischeR_Anlauf
-    @diagnostik_image(Warnzeichen,AutomatischeR_Anlauf.jpg,@0)
+@Warnzeichen.Automatischer_Anlauf
+    @diagnostik_image(Warnzeichen,Automatischer_Anlauf.jpg,@0)
 @end
 
 @Warnzeichen.Niedrige_Temperatur_Frost
@@ -636,7 +636,7 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Warnzeichen.Laserstrahl(10)|`Laserstrahl.jpg`|`@Warnzeichen.Laserstrahl(10)`|
 |@Warnzeichen.Allgemeines_Warnzeichen(10)|`Allgemeines_Warnzeichen.jpg`|`@Warnzeichen.Allgemeines_Warnzeichen(10)`|
 |@Warnzeichen.Explosionsfaehige_Stoffe(10)|`Explosionsfähige_Stoffe.jpg`|`@Warnzeichen.Explosionsfaehige_Stoffe(10)`|
-|@Warnzeichen.AutomatischeR_Anlauf(10)|`AutomatischeR_Anlauf.jpg`|`@Warnzeichen.AutomatischeR_Anlauf(10)`|
+|@Warnzeichen.Automatischer_Anlauf(10)|`Automatischer_Anlauf.jpg`|`@Warnzeichen.Automatischer_Anlauf(10)`|
 |@Warnzeichen.Niedrige_Temperatur_Frost(10)|`Niedrige_Temperatur_Frost.jpg`|`@Warnzeichen.Niedrige_Temperatur_Frost(10)`|
 |@Warnzeichen.Rutschgefahr(10)|`Rutschgefahr.jpg`|`@Warnzeichen.Rutschgefahr(10)`|
 |@Warnzeichen.Explosionsfaehige_Atmosphaere(10)|`Explosionsfähige_Atmosphäre.jpg`|`@Warnzeichen.Explosionsfaehige_Atmosphaere(10)`|
