@@ -4,474 +4,355 @@ email: volker.goehler@informatik.tu-freiberg
 version: 0.2.0
 repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test 
 
-@diagnostik_image
-    <img 
-        src="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img/@0/@1"
-        alt="@1"
-        style="height: @2rem"
-    >
-@end
-
-
-@Leitern.Nur_eine_Person
-    @diagnostik_image(Leitern,Nur_eine_Person.jpg,@0)
-@end
-
-@Leitern.Maximale_Belastung
-    @diagnostik_image(Leitern,Maximale_Belastung.jpg,@0)
-@end
-
-@Leitern.Die_obersten_3_Sprossen_nicht_besteigen
-    @diagnostik_image(Leitern,Die_obersten_3_Sprossen_nicht_besteigen.jpg,@0)
-@end
-
-@Leitern.Witterungsbedingungen
-    @diagnostik_image(Leitern,Witterungsbedingungen.jpg,@0)
-@end
-
-@Leitern.Nicht_uebersteigen
-    @diagnostik_image(Leitern,Nicht_übersteigen.jpg,@0)
-@end
-
-@Leitern.Anlegewinkel_beachten
-    @diagnostik_image(Leitern,Anlegewinkel_beachten.jpg,@0)
-@end
-
-@Leitern.Nicht_als_Anlegeleiter_nutzen
-    @diagnostik_image(Leitern,Nicht_als_Anlegeleiter_nutzen.jpg,@0)
-@end
-
-@Leitern.Ebener_und_tragfaehiger_Untergrund
-    @diagnostik_image(Leitern,Ebener_und_tragfähiger_Untergrund.jpg,@0)
-@end
-
-@Leitern.Spreizsicherung_einlegen
-    @diagnostik_image(Leitern,Spreizsicherung_einlegen.jpg,@0)
-@end
-
-@Leitern.Nicht_hinauslehnen
-    @diagnostik_image(Leitern,Nicht_hinauslehnen.jpg,@0)
-@end
-
-@Leitern.Nur_an_sichere_Flaechen_anlegen
-    @diagnostik_image(Leitern,Nur_an_sichere_Flächen_anlegen.jpg,@0)
-@end
-
-@Leitern.Die_obersten_4_Sprossen_nicht_besteigen
-    @diagnostik_image(Leitern,Die_obersten_4_Sprossen_nicht_besteigen.jpg,@0)
-@end
-
-@Leitern.Nicht_uebertreten
-    @diagnostik_image(Leitern,Nicht_übertreten.jpg,@0)
-@end
-
-@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund
-    @diagnostik_image(Leitern,Stahlspitzen_auf_nachgiebigem_Untergrund.jpg,@0)
-@end
-
-@Leitern.Mindestens_1_m_Ueberstand
-    @diagnostik_image(Leitern,Mindestens_1_m_Überstand.jpg,@0)
-@end
-
-@Leitern.Gespannte_Spreizvorrichtung
-    @diagnostik_image(Leitern,Gespannte_Spreizvorrichtung.jpg,@0)
-@end
-
-@Verbotszeichen.Mitfuehren_von_Hunden_verboten
-    @diagnostik_image(Verbotszeichen,Mitführen_von_Hunden_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Allgemeines_Verbotszeichen
-    @diagnostik_image(Verbotszeichen,Allgemeines_Verbotszeichen.jpg,@0)
-@end
-
-@Verbotszeichen.Abstellen_oder_Lagern_verboten
-    @diagnostik_image(Verbotszeichen,Abstellen_oder_Lagern_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Rauchen_verboten
-    @diagnostik_image(Verbotszeichen,Rauchen_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Betreten_der_Flaeche_verboten
-    @diagnostik_image(Verbotszeichen,Betreten_der_Fläche_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Laufen_verboten
-    @diagnostik_image(Verbotszeichen,Laufen_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Fuer_Fussgaenger_verboten
-    @diagnostik_image(Verbotszeichen,Für_Fußgänger_verboten.jpg,@0)
-@end
-
-@Verbotszeichen.Hineinfassen_verboten
-    @diagnostik_image(Verbotszeichen,Hineinfassen_verboten.jpg,@0)
-@end
+@diagnostik_url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img
 
-@Verbotszeichen.Mit_Wasser_loeschen_verboten
-    @diagnostik_image(Verbotszeichen,Mit_Wasser_löschen_verboten.jpg,@0)
-@end
+@diagnostik_image: <img src="@0/@1" alt="@1" style="height: @2rem">
 
-@Verbotszeichen.Benutzen_von_Handschuhen_verboten
-    @diagnostik_image(Verbotszeichen,Benutzen_von_Handschuhen_verboten.jpg,@0)
-@end
 
-@Verbotszeichen.Essen_und_Trinken_verboten
-    @diagnostik_image(Verbotszeichen,Essen_und_Trinken_verboten.jpg,@0)
-@end
+@Leitern.Nur_eine_Person.src: @diagnostik_url/Leitern/Nur_eine_Person.jpg
+@Leitern.Nur_eine_Person: @diagnostik_image(@diagnostik_url,Leitern/Nur_eine_Person.jpg,@0)
 
-@Verbotszeichen.Keine_schwere_Last
-    @diagnostik_image(Verbotszeichen,Keine_schwere_Last.jpg,@0)
-@end
+@Leitern.Maximale_Belastung.src: @diagnostik_url/Leitern/Maximale_Belastung.jpg
+@Leitern.Maximale_Belastung: @diagnostik_image(@diagnostik_url,Leitern/Maximale_Belastung.jpg,@0)
 
-@Verbotszeichen.Beruehren_verboten
-    @diagnostik_image(Verbotszeichen,Berühren_verboten.jpg,@0)
-@end
+@Leitern.Die_obersten_3_Sprossen_nicht_besteigen.src: @diagnostik_url/Leitern/Die_obersten_3_Sprossen_nicht_besteigen.jpg
+@Leitern.Die_obersten_3_Sprossen_nicht_besteigen: @diagnostik_image(@diagnostik_url,Leitern/Die_obersten_3_Sprossen_nicht_besteigen.jpg,@0)
 
-@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten
-    @diagnostik_image(Verbotszeichen,Eingeschaltete_Mobiltelefone_verboten.jpg,@0)
-@end
+@Leitern.Witterungsbedingungen.src: @diagnostik_url/Leitern/Witterungsbedingungen.jpg
+@Leitern.Witterungsbedingungen: @diagnostik_image(@diagnostik_url,Leitern/Witterungsbedingungen.jpg,@0)
 
-@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten
-    @diagnostik_image(Verbotszeichen,Kein_Zutritt_für_Personen_mit_Implantaten.jpg,@0)
-@end
+@Leitern.Nicht_uebersteigen.src: @diagnostik_url/Leitern/Nicht_übersteigen.jpg
+@Leitern.Nicht_uebersteigen: @diagnostik_image(@diagnostik_url,Leitern/Nicht_übersteigen.jpg,@0)
 
-@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten
-    @diagnostik_image(Verbotszeichen,Besteigen_für_Unbefugte_verboten.jpg,@0)
-@end
+@Leitern.Anlegewinkel_beachten.src: @diagnostik_url/Leitern/Anlegewinkel_beachten.jpg
+@Leitern.Anlegewinkel_beachten: @diagnostik_image(@diagnostik_url,Leitern/Anlegewinkel_beachten.jpg,@0)
 
-@Verbotszeichen.Schalten_verboten
-    @diagnostik_image(Verbotszeichen,Schalten_verboten.jpg,@0)
-@end
+@Leitern.Nicht_als_Anlegeleiter_nutzen.src: @diagnostik_url/Leitern/Nicht_als_Anlegeleiter_nutzen.jpg
+@Leitern.Nicht_als_Anlegeleiter_nutzen: @diagnostik_image(@diagnostik_url,Leitern/Nicht_als_Anlegeleiter_nutzen.jpg,@0)
 
-@Verbotszeichen.Kein_Trinkwasser
-    @diagnostik_image(Verbotszeichen,Kein_Trinkwasser.jpg,@0)
-@end
+@Leitern.Ebener_und_tragfaehiger_Untergrund.src: @diagnostik_url/Leitern/Ebener_und_tragfähiger_Untergrund.jpg
+@Leitern.Ebener_und_tragfaehiger_Untergrund: @diagnostik_image(@diagnostik_url,Leitern/Ebener_und_tragfähiger_Untergrund.jpg,@0)
 
-@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten
-    @diagnostik_image(Verbotszeichen,Für_Flurförderzeuge_verboten.jpg,@0)
-@end
+@Leitern.Spreizsicherung_einlegen.src: @diagnostik_url/Leitern/Spreizsicherung_einlegen.jpg
+@Leitern.Spreizsicherung_einlegen: @diagnostik_image(@diagnostik_url,Leitern/Spreizsicherung_einlegen.jpg,@0)
 
-@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten
-    @diagnostik_image(Verbotszeichen,Zutritt_für_Unbefugte_verboten.jpg,@0)
-@end
+@Leitern.Nicht_hinauslehnen.src: @diagnostik_url/Leitern/Nicht_hinauslehnen.jpg
+@Leitern.Nicht_hinauslehnen: @diagnostik_image(@diagnostik_url,Leitern/Nicht_hinauslehnen.jpg,@0)
 
-@Verbotszeichen.Personenbefoerderung_verboten
-    @diagnostik_image(Verbotszeichen,Personenbeförderung_verboten.jpg,@0)
-@end
+@Leitern.Nur_an_sichere_Flaechen_anlegen.src: @diagnostik_url/Leitern/Nur_an_sichere_Flächen_anlegen.jpg
+@Leitern.Nur_an_sichere_Flaechen_anlegen: @diagnostik_image(@diagnostik_url,Leitern/Nur_an_sichere_Flächen_anlegen.jpg,@0)
 
-@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher
-    @diagnostik_image(Verbotszeichen,Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg,@0)
-@end
+@Leitern.Die_obersten_4_Sprossen_nicht_besteigen.src: @diagnostik_url/Leitern/Die_obersten_4_Sprossen_nicht_besteigen.jpg
+@Leitern.Die_obersten_4_Sprossen_nicht_besteigen: @diagnostik_image(@diagnostik_url,Leitern/Die_obersten_4_Sprossen_nicht_besteigen.jpg,@0)
 
-@Verbotszeichen.Mit_Wasser_spritzen_verboten
-    @diagnostik_image(Verbotszeichen,Mit_Wasser_spritzen_verboten.jpg,@0)
-@end
+@Leitern.Nicht_uebertreten.src: @diagnostik_url/Leitern/Nicht_übertreten.jpg
+@Leitern.Nicht_uebertreten: @diagnostik_image(@diagnostik_url,Leitern/Nicht_übertreten.jpg,@0)
 
-@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen
-    @diagnostik_image(Verbotszeichen,Aufzug_im_Brandfall_nicht_benutzen.jpg,@0)
-@end
+@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src: @diagnostik_url/Leitern/Stahlspitzen_auf_nachgiebigem_Untergrund.jpg
+@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund: @diagnostik_image(@diagnostik_url,Leitern/Stahlspitzen_auf_nachgiebigem_Untergrund.jpg,@0)
 
-@Verbotszeichen.Keine_Offene_Flamme
-    @diagnostik_image(Verbotszeichen,Keine_Offene_Flamme.jpg,@0)
-@end
+@Leitern.Mindestens_1_m_Ueberstand.src: @diagnostik_url/Leitern/Mindestens_1_m_Überstand.jpg
+@Leitern.Mindestens_1_m_Ueberstand: @diagnostik_image(@diagnostik_url,Leitern/Mindestens_1_m_Überstand.jpg,@0)
 
-@Gebotszeichen.Auffanggurte
-    @diagnostik_image(Gebotszeichen,Auffanggurte.jpg,@0)
-@end
+@Leitern.Gespannte_Spreizvorrichtung.src: @diagnostik_url/Leitern/Gespannte_Spreizvorrichtung.jpg
+@Leitern.Gespannte_Spreizvorrichtung: @diagnostik_image(@diagnostik_url,Leitern/Gespannte_Spreizvorrichtung.jpg,@0)
 
-@Gebotszeichen.Augenschutz
-    @diagnostik_image(Gebotszeichen,Augenschutz.jpg,@0)
-@end
+@Verbotszeichen.Mitfuehren_von_Hunden_verboten.src: @diagnostik_url/Verbotszeichen/Mitführen_von_Hunden_verboten.jpg
+@Verbotszeichen.Mitfuehren_von_Hunden_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Mitführen_von_Hunden_verboten.jpg,@0)
 
-@Gebotszeichen.Schutzschuerze
-    @diagnostik_image(Gebotszeichen,Schutzschürze.jpg,@0)
-@end
+@Verbotszeichen.Allgemeines_Verbotszeichen.src: @diagnostik_url/Verbotszeichen/Allgemeines_Verbotszeichen.jpg
+@Verbotszeichen.Allgemeines_Verbotszeichen: @diagnostik_image(@diagnostik_url,Verbotszeichen/Allgemeines_Verbotszeichen.jpg,@0)
 
-@Gebotszeichen.Kopfschutz
-    @diagnostik_image(Gebotszeichen,Kopfschutz.jpg,@0)
-@end
+@Verbotszeichen.Abstellen_oder_Lagern_verboten.src: @diagnostik_url/Verbotszeichen/Abstellen_oder_Lagern_verboten.jpg
+@Verbotszeichen.Abstellen_oder_Lagern_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Abstellen_oder_Lagern_verboten.jpg,@0)
 
-@Gebotszeichen.Gesichtsschutz
-    @diagnostik_image(Gebotszeichen,Gesichtsschutz.jpg,@0)
-@end
+@Verbotszeichen.Rauchen_verboten.src: @diagnostik_url/Verbotszeichen/Rauchen_verboten.jpg
+@Verbotszeichen.Rauchen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Rauchen_verboten.jpg,@0)
 
-@Gebotszeichen.Warnweste
-    @diagnostik_image(Gebotszeichen,Warnweste.jpg,@0)
-@end
+@Verbotszeichen.Betreten_der_Flaeche_verboten.src: @diagnostik_url/Verbotszeichen/Betreten_der_Fläche_verboten.jpg
+@Verbotszeichen.Betreten_der_Flaeche_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Betreten_der_Fläche_verboten.jpg,@0)
 
-@Gebotszeichen.Schutzkleidung
-    @diagnostik_image(Gebotszeichen,Schutzkleidung.jpg,@0)
-@end
+@Verbotszeichen.Laufen_verboten.src: @diagnostik_url/Verbotszeichen/Laufen_verboten.jpg
+@Verbotszeichen.Laufen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Laufen_verboten.jpg,@0)
 
-@Gebotszeichen.Rueckhaltesystem
-    @diagnostik_image(Gebotszeichen,Rückhaltesystem.jpg,@0)
-@end
+@Verbotszeichen.Fuer_Fussgaenger_verboten.src: @diagnostik_url/Verbotszeichen/Für_Fußgänger_verboten.jpg
+@Verbotszeichen.Fuer_Fussgaenger_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Für_Fußgänger_verboten.jpg,@0)
 
-@Gebotszeichen.Handlauf
-    @diagnostik_image(Gebotszeichen,Handlauf.jpg,@0)
-@end
+@Verbotszeichen.Hineinfassen_verboten.src: @diagnostik_url/Verbotszeichen/Hineinfassen_verboten.jpg
+@Verbotszeichen.Hineinfassen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Hineinfassen_verboten.jpg,@0)
 
-@Gebotszeichen.Hautschutzmittel
-    @diagnostik_image(Gebotszeichen,Hautschutzmittel.jpg,@0)
-@end
+@Verbotszeichen.Mit_Wasser_loeschen_verboten.src: @diagnostik_url/Verbotszeichen/Mit_Wasser_löschen_verboten.jpg
+@Verbotszeichen.Mit_Wasser_loeschen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Mit_Wasser_löschen_verboten.jpg,@0)
 
-@Gebotszeichen.Atemschutz
-    @diagnostik_image(Gebotszeichen,Atemschutz.jpg,@0)
-@end
+@Verbotszeichen.Benutzen_von_Handschuhen_verboten.src: @diagnostik_url/Verbotszeichen/Benutzen_von_Handschuhen_verboten.jpg
+@Verbotszeichen.Benutzen_von_Handschuhen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Benutzen_von_Handschuhen_verboten.jpg,@0)
 
-@Gebotszeichen.Fussschutz
-    @diagnostik_image(Gebotszeichen,Fußschutz.jpg,@0)
-@end
+@Verbotszeichen.Essen_und_Trinken_verboten.src: @diagnostik_url/Verbotszeichen/Essen_und_Trinken_verboten.jpg
+@Verbotszeichen.Essen_und_Trinken_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Essen_und_Trinken_verboten.jpg,@0)
 
-@Gebotszeichen.Wartung_oder_Reparatur_freischalten
-    @diagnostik_image(Gebotszeichen,Wartung_oder_Reparatur_freischalten.jpg,@0)
-@end
+@Verbotszeichen.Keine_schwere_Last.src: @diagnostik_url/Verbotszeichen/Keine_schwere_Last.jpg
+@Verbotszeichen.Keine_schwere_Last: @diagnostik_image(@diagnostik_url,Verbotszeichen/Keine_schwere_Last.jpg,@0)
 
-@Gebotszeichen.Uebergang
-    @diagnostik_image(Gebotszeichen,Übergang.jpg,@0)
-@end
+@Verbotszeichen.Beruehren_verboten.src: @diagnostik_url/Verbotszeichen/Berühren_verboten.jpg
+@Verbotszeichen.Beruehren_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Berühren_verboten.jpg,@0)
 
-@Gebotszeichen.Haende_waschen
-    @diagnostik_image(Gebotszeichen,Hände_waschen.jpg,@0)
-@end
+@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten.src: @diagnostik_url/Verbotszeichen/Eingeschaltete_Mobiltelefone_verboten.jpg
+@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Eingeschaltete_Mobiltelefone_verboten.jpg,@0)
 
-@Gebotszeichen.Handschuh
-    @diagnostik_image(Gebotszeichen,Handschuh.jpg,@0)
-@end
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten.src: @diagnostik_url/Verbotszeichen/Kein_Zutritt_für_Personen_mit_Implantaten.jpg
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Kein_Zutritt_für_Personen_mit_Implantaten.jpg,@0)
 
-@Gebotszeichen.Gehoerschutz
-    @diagnostik_image(Gebotszeichen,Gehörschutz.jpg,@0)
-@end
+@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src: @diagnostik_url/Verbotszeichen/Besteigen_für_Unbefugte_verboten.jpg
+@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Besteigen_für_Unbefugte_verboten.jpg,@0)
 
-@Gebotszeichen.Fussgaengerweg
-    @diagnostik_image(Gebotszeichen,Fußgängerweg.jpg,@0)
-@end
+@Verbotszeichen.Schalten_verboten.src: @diagnostik_url/Verbotszeichen/Schalten_verboten.jpg
+@Verbotszeichen.Schalten_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Schalten_verboten.jpg,@0)
 
-@Gebotszeichen.Ausrufezeichen
-    @diagnostik_image(Gebotszeichen,Ausrufezeichen.jpg,@0)
-@end
+@Verbotszeichen.Kein_Trinkwasser.src: @diagnostik_url/Verbotszeichen/Kein_Trinkwasser.jpg
+@Verbotszeichen.Kein_Trinkwasser: @diagnostik_image(@diagnostik_url,Verbotszeichen/Kein_Trinkwasser.jpg,@0)
 
-@Rettungszeichen.Notruftelefon
-    @diagnostik_image(Rettungszeichen,Notruftelefon.jpg,@0)
-@end
+@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten.src: @diagnostik_url/Verbotszeichen/Für_Flurförderzeuge_verboten.jpg
+@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Für_Flurförderzeuge_verboten.jpg,@0)
 
-@Rettungszeichen.Rettungsweg_Notausgang_links
-    @diagnostik_image(Rettungszeichen,Rettungsweg_Notausgang_links.jpg,@0)
-@end
+@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten.src: @diagnostik_url/Verbotszeichen/Zutritt_für_Unbefugte_verboten.jpg
+@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Zutritt_für_Unbefugte_verboten.jpg,@0)
 
-@Rettungszeichen.Notausstieg
-    @diagnostik_image(Rettungszeichen,Notausstieg.jpg,@0)
-@end
+@Verbotszeichen.Personenbefoerderung_verboten.src: @diagnostik_url/Verbotszeichen/Personenbeförderung_verboten.jpg
+@Verbotszeichen.Personenbefoerderung_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Personenbeförderung_verboten.jpg,@0)
 
-@Rettungszeichen.Rettungsausstieg
-    @diagnostik_image(Rettungszeichen,Rettungsausstieg.jpg,@0)
-@end
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher.src: @diagnostik_url/Verbotszeichen/Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg
+@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher: @diagnostik_image(@diagnostik_url,Verbotszeichen/Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg,@0)
 
-@Rettungszeichen.Augenspueleinrichtung
-    @diagnostik_image(Rettungszeichen,Augenspüleinrichtung.jpg,@0)
-@end
+@Verbotszeichen.Mit_Wasser_spritzen_verboten.src: @diagnostik_url/Verbotszeichen/Mit_Wasser_spritzen_verboten.jpg
+@Verbotszeichen.Mit_Wasser_spritzen_verboten: @diagnostik_image(@diagnostik_url,Verbotszeichen/Mit_Wasser_spritzen_verboten.jpg,@0)
 
-@Rettungszeichen.Rettungsweg_Notausgang
-    @diagnostik_image(Rettungszeichen,Rettungsweg_Notausgang.jpg,@0)
-@end
+@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen.src: @diagnostik_url/Verbotszeichen/Aufzug_im_Brandfall_nicht_benutzen.jpg
+@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen: @diagnostik_image(@diagnostik_url,Verbotszeichen/Aufzug_im_Brandfall_nicht_benutzen.jpg,@0)
 
-@Rettungszeichen.Erste_Hilfe
-    @diagnostik_image(Rettungszeichen,Erste_Hilfe.jpg,@0)
-@end
+@Verbotszeichen.Keine_Offene_Flamme.src: @diagnostik_url/Verbotszeichen/Keine_Offene_Flamme.jpg
+@Verbotszeichen.Keine_Offene_Flamme: @diagnostik_image(@diagnostik_url,Verbotszeichen/Keine_Offene_Flamme.jpg,@0)
 
-@Rettungszeichen.Rettungsweg_Notausgang_rechts
-    @diagnostik_image(Rettungszeichen,Rettungsweg_Notausgang_rechts.jpg,@0)
-@end
+@Gebotszeichen.Auffanggurte.src: @diagnostik_url/Gebotszeichen/Auffanggurte.jpg
+@Gebotszeichen.Auffanggurte: @diagnostik_image(@diagnostik_url,Gebotszeichen/Auffanggurte.jpg,@0)
 
-@Rettungszeichen.Defibrillator
-    @diagnostik_image(Rettungszeichen,Defibrillator.jpg,@0)
-@end
+@Gebotszeichen.Augenschutz.src: @diagnostik_url/Gebotszeichen/Augenschutz.jpg
+@Gebotszeichen.Augenschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Augenschutz.jpg,@0)
 
-@Rettungszeichen.Arzt
-    @diagnostik_image(Rettungszeichen,Arzt.jpg,@0)
-@end
+@Gebotszeichen.Schutzschuerze.src: @diagnostik_url/Gebotszeichen/Schutzschürze.jpg
+@Gebotszeichen.Schutzschuerze: @diagnostik_image(@diagnostik_url,Gebotszeichen/Schutzschürze.jpg,@0)
 
-@Rettungszeichen.Krankentrage
-    @diagnostik_image(Rettungszeichen,Krankentrage.jpg,@0)
-@end
+@Gebotszeichen.Kopfschutz.src: @diagnostik_url/Gebotszeichen/Kopfschutz.jpg
+@Gebotszeichen.Kopfschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Kopfschutz.jpg,@0)
 
-@Rettungszeichen.Richtungspfeil_rechts
-    @diagnostik_image(Rettungszeichen,Richtungspfeil_rechts.jpg,@0)
-@end
+@Gebotszeichen.Gesichtsschutz.src: @diagnostik_url/Gebotszeichen/Gesichtsschutz.jpg
+@Gebotszeichen.Gesichtsschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Gesichtsschutz.jpg,@0)
 
-@Rettungszeichen.Oeffentliche_Rettungsausruestung
-    @diagnostik_image(Rettungszeichen,Öffentliche_Rettungsausrüstung.jpg,@0)
-@end
+@Gebotszeichen.Warnweste.src: @diagnostik_url/Gebotszeichen/Warnweste.jpg
+@Gebotszeichen.Warnweste: @diagnostik_image(@diagnostik_url,Gebotszeichen/Warnweste.jpg,@0)
 
-@Rettungszeichen.Sammelstelle
-    @diagnostik_image(Rettungszeichen,Sammelstelle.jpg,@0)
-@end
+@Gebotszeichen.Schutzkleidung.src: @diagnostik_url/Gebotszeichen/Schutzkleidung.jpg
+@Gebotszeichen.Schutzkleidung: @diagnostik_image(@diagnostik_url,Gebotszeichen/Schutzkleidung.jpg,@0)
 
-@Rettungszeichen.Notausstieg_mit_Leiter
-    @diagnostik_image(Rettungszeichen,Notausstieg_mit_Leiter.jpg,@0)
-@end
+@Gebotszeichen.Rueckhaltesystem.src: @diagnostik_url/Gebotszeichen/Rückhaltesystem.jpg
+@Gebotszeichen.Rueckhaltesystem: @diagnostik_image(@diagnostik_url,Gebotszeichen/Rückhaltesystem.jpg,@0)
 
-@Rettungszeichen.Notdusche
-    @diagnostik_image(Rettungszeichen,Notdusche.jpg,@0)
-@end
+@Gebotszeichen.Handlauf.src: @diagnostik_url/Gebotszeichen/Handlauf.jpg
+@Gebotszeichen.Handlauf: @diagnostik_image(@diagnostik_url,Gebotszeichen/Handlauf.jpg,@0)
 
-@Rettungszeichen.Notausgang_rechts
-    @diagnostik_image(Rettungszeichen,Notausgang_rechts.jpg,@0)
-@end
+@Gebotszeichen.Hautschutzmittel.src: @diagnostik_url/Gebotszeichen/Hautschutzmittel.jpg
+@Gebotszeichen.Hautschutzmittel: @diagnostik_image(@diagnostik_url,Gebotszeichen/Hautschutzmittel.jpg,@0)
 
-@Rettungszeichen.Richtungspfeil_rechts_unten
-    @diagnostik_image(Rettungszeichen,Richtungspfeil_rechts_unten.jpg,@0)
-@end
+@Gebotszeichen.Atemschutz.src: @diagnostik_url/Gebotszeichen/Atemschutz.jpg
+@Gebotszeichen.Atemschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Atemschutz.jpg,@0)
 
-@Brandschutzzeichen.Brandmelder
-    @diagnostik_image(Brandschutzzeichen,Brandmelder.jpg,@0)
-@end
+@Gebotszeichen.Fussschutz.src: @diagnostik_url/Gebotszeichen/Fußschutz.jpg
+@Gebotszeichen.Fussschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Fußschutz.jpg,@0)
 
-@Brandschutzzeichen.Richtungspfeil_Rechts_unten
-    @diagnostik_image(Brandschutzzeichen,Richtungspfeil_Rechts_unten.jpg,@0)
-@end
+@Gebotszeichen.Wartung_oder_Reparatur_freischalten.src: @diagnostik_url/Gebotszeichen/Wartung_oder_Reparatur_freischalten.jpg
+@Gebotszeichen.Wartung_oder_Reparatur_freischalten: @diagnostik_image(@diagnostik_url,Gebotszeichen/Wartung_oder_Reparatur_freischalten.jpg,@0)
 
-@Brandschutzzeichen.Brandmeldetelefon
-    @diagnostik_image(Brandschutzzeichen,Brandmeldetelefon.jpg,@0)
-@end
+@Gebotszeichen.Uebergang.src: @diagnostik_url/Gebotszeichen/Übergang.jpg
+@Gebotszeichen.Uebergang: @diagnostik_image(@diagnostik_url,Gebotszeichen/Übergang.jpg,@0)
 
-@Brandschutzzeichen.Feuerleiter
-    @diagnostik_image(Brandschutzzeichen,Feuerleiter.jpg,@0)
-@end
+@Gebotszeichen.Haende_waschen.src: @diagnostik_url/Gebotszeichen/Hände_waschen.jpg
+@Gebotszeichen.Haende_waschen: @diagnostik_image(@diagnostik_url,Gebotszeichen/Hände_waschen.jpg,@0)
 
-@Brandschutzzeichen.Loeschschlauch
-    @diagnostik_image(Brandschutzzeichen,Löschschlauch.jpg,@0)
-@end
+@Gebotszeichen.Handschuh.src: @diagnostik_url/Gebotszeichen/Handschuh.jpg
+@Gebotszeichen.Handschuh: @diagnostik_image(@diagnostik_url,Gebotszeichen/Handschuh.jpg,@0)
 
-@Brandschutzzeichen.Richtungspfeil_Rechts
-    @diagnostik_image(Brandschutzzeichen,Richtungspfeil_Rechts.jpg,@0)
-@end
+@Gebotszeichen.Gehoerschutz.src: @diagnostik_url/Gebotszeichen/Gehörschutz.jpg
+@Gebotszeichen.Gehoerschutz: @diagnostik_image(@diagnostik_url,Gebotszeichen/Gehörschutz.jpg,@0)
 
-@Brandschutzzeichen.Brandbekaempfung
-    @diagnostik_image(Brandschutzzeichen,Brandbekämpfung.jpg,@0)
-@end
+@Gebotszeichen.Fussgaengerweg.src: @diagnostik_url/Gebotszeichen/Fußgängerweg.jpg
+@Gebotszeichen.Fussgaengerweg: @diagnostik_image(@diagnostik_url,Gebotszeichen/Fußgängerweg.jpg,@0)
 
-@Brandschutzzeichen.Feuerloescher
-    @diagnostik_image(Brandschutzzeichen,Feuerlöscher.jpg,@0)
-@end
+@Gebotszeichen.Ausrufezeichen.src: @diagnostik_url/Gebotszeichen/Ausrufezeichen.jpg
+@Gebotszeichen.Ausrufezeichen: @diagnostik_image(@diagnostik_url,Gebotszeichen/Ausrufezeichen.jpg,@0)
 
-@Warnzeichen.Absturzgefahr
-    @diagnostik_image(Warnzeichen,Absturzgefahr.jpg,@0)
-@end
+@Rettungszeichen.Notruftelefon.src: @diagnostik_url/Rettungszeichen/Notruftelefon.jpg
+@Rettungszeichen.Notruftelefon: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notruftelefon.jpg,@0)
 
-@Warnzeichen.Schwebende_Last
-    @diagnostik_image(Warnzeichen,Schwebende_Last.jpg,@0)
-@end
+@Rettungszeichen.Rettungsweg_Notausgang_links.src: @diagnostik_url/Rettungszeichen/Rettungsweg_Notausgang_links.jpg
+@Rettungszeichen.Rettungsweg_Notausgang_links: @diagnostik_image(@diagnostik_url,Rettungszeichen/Rettungsweg_Notausgang_links.jpg,@0)
 
-@Warnzeichen.Radioaktive_Stoffe
-    @diagnostik_image(Warnzeichen,Radioaktive_Stoffe.jpg,@0)
-@end
+@Rettungszeichen.Notausstieg.src: @diagnostik_url/Rettungszeichen/Notausstieg.jpg
+@Rettungszeichen.Notausstieg: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notausstieg.jpg,@0)
 
-@Warnzeichen.Heisse_Oberflaeche
-    @diagnostik_image(Warnzeichen,Heiße_Oberfläche.jpg,@0)
-@end
+@Rettungszeichen.Rettungsausstieg.src: @diagnostik_url/Rettungszeichen/Rettungsausstieg.jpg
+@Rettungszeichen.Rettungsausstieg: @diagnostik_image(@diagnostik_url,Rettungszeichen/Rettungsausstieg.jpg,@0)
 
-@Warnzeichen.Nicht_ionisierende_Strahlung
-    @diagnostik_image(Warnzeichen,Nicht_ionisierende_Strahlung.jpg,@0)
-@end
+@Rettungszeichen.Augenspueleinrichtung.src: @diagnostik_url/Rettungszeichen/Augenspüleinrichtung.jpg
+@Rettungszeichen.Augenspueleinrichtung: @diagnostik_image(@diagnostik_url,Rettungszeichen/Augenspüleinrichtung.jpg,@0)
 
-@Warnzeichen.Flurfoerderzeugen
-    @diagnostik_image(Warnzeichen,Flurförderzeugen.jpg,@0)
-@end
+@Rettungszeichen.Rettungsweg_Notausgang.src: @diagnostik_url/Rettungszeichen/Rettungsweg_Notausgang.jpg
+@Rettungszeichen.Rettungsweg_Notausgang: @diagnostik_image(@diagnostik_url,Rettungszeichen/Rettungsweg_Notausgang.jpg,@0)
 
-@Warnzeichen.Aetzende_Stoffe
-    @diagnostik_image(Warnzeichen,Ätzende_Stoffe.jpg,@0)
-@end
+@Rettungszeichen.Erste_Hilfe.src: @diagnostik_url/Rettungszeichen/Erste_Hilfe.jpg
+@Rettungszeichen.Erste_Hilfe: @diagnostik_image(@diagnostik_url,Rettungszeichen/Erste_Hilfe.jpg,@0)
 
-@Warnzeichen.Magnetische_Felder
-    @diagnostik_image(Warnzeichen,Magnetische_Felder.jpg,@0)
-@end
+@Rettungszeichen.Rettungsweg_Notausgang_rechts.src: @diagnostik_url/Rettungszeichen/Rettungsweg_Notausgang_rechts.jpg
+@Rettungszeichen.Rettungsweg_Notausgang_rechts: @diagnostik_image(@diagnostik_url,Rettungszeichen/Rettungsweg_Notausgang_rechts.jpg,@0)
 
-@Warnzeichen.Brandfoerdernde_Stoffe
-    @diagnostik_image(Warnzeichen,Brandfördernde_Stoffe.jpg,@0)
-@end
+@Rettungszeichen.Defibrillator.src: @diagnostik_url/Rettungszeichen/Defibrillator.jpg
+@Rettungszeichen.Defibrillator: @diagnostik_image(@diagnostik_url,Rettungszeichen/Defibrillator.jpg,@0)
 
-@Warnzeichen.Laserstrahl
-    @diagnostik_image(Warnzeichen,Laserstrahl.jpg,@0)
-@end
+@Rettungszeichen.Arzt.src: @diagnostik_url/Rettungszeichen/Arzt.jpg
+@Rettungszeichen.Arzt: @diagnostik_image(@diagnostik_url,Rettungszeichen/Arzt.jpg,@0)
 
-@Warnzeichen.Allgemeines_Warnzeichen
-    @diagnostik_image(Warnzeichen,Allgemeines_Warnzeichen.jpg,@0)
-@end
+@Rettungszeichen.Krankentrage.src: @diagnostik_url/Rettungszeichen/Krankentrage.jpg
+@Rettungszeichen.Krankentrage: @diagnostik_image(@diagnostik_url,Rettungszeichen/Krankentrage.jpg,@0)
 
-@Warnzeichen.Explosionsfaehige_Stoffe
-    @diagnostik_image(Warnzeichen,Explosionsfähige_Stoffe.jpg,@0)
-@end
+@Rettungszeichen.Richtungspfeil_rechts.src: @diagnostik_url/Rettungszeichen/Richtungspfeil_rechts.jpg
+@Rettungszeichen.Richtungspfeil_rechts: @diagnostik_image(@diagnostik_url,Rettungszeichen/Richtungspfeil_rechts.jpg,@0)
 
-@Warnzeichen.Automatischer_Anlauf
-    @diagnostik_image(Warnzeichen,Automatischer_Anlauf.jpg,@0)
-@end
+@Rettungszeichen.Oeffentliche_Rettungsausruestung.src: @diagnostik_url/Rettungszeichen/Öffentliche_Rettungsausrüstung.jpg
+@Rettungszeichen.Oeffentliche_Rettungsausruestung: @diagnostik_image(@diagnostik_url,Rettungszeichen/Öffentliche_Rettungsausrüstung.jpg,@0)
 
-@Warnzeichen.Niedrige_Temperatur_Frost
-    @diagnostik_image(Warnzeichen,Niedrige_Temperatur_Frost.jpg,@0)
-@end
+@Rettungszeichen.Sammelstelle.src: @diagnostik_url/Rettungszeichen/Sammelstelle.jpg
+@Rettungszeichen.Sammelstelle: @diagnostik_image(@diagnostik_url,Rettungszeichen/Sammelstelle.jpg,@0)
 
-@Warnzeichen.Rutschgefahr
-    @diagnostik_image(Warnzeichen,Rutschgefahr.jpg,@0)
-@end
+@Rettungszeichen.Notausstieg_mit_Leiter.src: @diagnostik_url/Rettungszeichen/Notausstieg_mit_Leiter.jpg
+@Rettungszeichen.Notausstieg_mit_Leiter: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notausstieg_mit_Leiter.jpg,@0)
 
-@Warnzeichen.Explosionsfaehige_Atmosphaere
-    @diagnostik_image(Warnzeichen,Explosionsfähige_Atmosphäre.jpg,@0)
-@end
+@Rettungszeichen.Notdusche.src: @diagnostik_url/Rettungszeichen/Notdusche.jpg
+@Rettungszeichen.Notdusche: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notdusche.jpg,@0)
 
-@Warnzeichen.Giftige_Stoffe
-    @diagnostik_image(Warnzeichen,Giftige_Stoffe.jpg,@0)
-@end
+@Rettungszeichen.Notausgang_rechts.src: @diagnostik_url/Rettungszeichen/Notausgang_rechts.jpg
+@Rettungszeichen.Notausgang_rechts: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notausgang_rechts.jpg,@0)
 
-@Warnzeichen.Biogefaehrdung
-    @diagnostik_image(Warnzeichen,Biogefährdung.jpg,@0)
-@end
+@Rettungszeichen.Richtungspfeil_rechts_unten.src: @diagnostik_url/Rettungszeichen/Richtungspfeil_rechts_unten.jpg
+@Rettungszeichen.Richtungspfeil_rechts_unten: @diagnostik_image(@diagnostik_url,Rettungszeichen/Richtungspfeil_rechts_unten.jpg,@0)
 
-@Warnzeichen.Elektrische_Spannung
-    @diagnostik_image(Warnzeichen,Elektrische_Spannung.jpg,@0)
-@end
+@Brandschutzzeichen.Brandmelder.src: @diagnostik_url/Brandschutzzeichen/Brandmelder.jpg
+@Brandschutzzeichen.Brandmelder: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Brandmelder.jpg,@0)
 
-@Warnzeichen.Hindernisse_am_Boden
-    @diagnostik_image(Warnzeichen,Hindernisse_am_Boden.jpg,@0)
-@end
+@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src: @diagnostik_url/Brandschutzzeichen/Richtungspfeil_Rechts_unten.jpg
+@Brandschutzzeichen.Richtungspfeil_Rechts_unten: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Richtungspfeil_Rechts_unten.jpg,@0)
 
-@Gefahrstoffe.Oxidierend
-    @diagnostik_image(Gefahrstoffe,Oxidierend.gif,@0)
-@end
+@Brandschutzzeichen.Brandmeldetelefon.src: @diagnostik_url/Brandschutzzeichen/Brandmeldetelefon.jpg
+@Brandschutzzeichen.Brandmeldetelefon: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Brandmeldetelefon.jpg,@0)
 
-@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich
-    @diagnostik_image(Gefahrstoffe,Krebserregend_Gesundheitsschädlich.gif,@0)
-@end
+@Brandschutzzeichen.Feuerleiter.src: @diagnostik_url/Brandschutzzeichen/Feuerleiter.jpg
+@Brandschutzzeichen.Feuerleiter: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Feuerleiter.jpg,@0)
 
-@Gefahrstoffe.Reizend_Gesundheitsschaedlich
-    @diagnostik_image(Gefahrstoffe,Reizend_Gesundheitsschädlich.gif,@0)
-@end
+@Brandschutzzeichen.Loeschschlauch.src: @diagnostik_url/Brandschutzzeichen/Löschschlauch.jpg
+@Brandschutzzeichen.Loeschschlauch: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Löschschlauch.jpg,@0)
 
-@Gefahrstoffe.Komprimierte_Gase
-    @diagnostik_image(Gefahrstoffe,Komprimierte_Gase.gif,@0)
-@end
+@Brandschutzzeichen.Richtungspfeil_Rechts.src: @diagnostik_url/Brandschutzzeichen/Richtungspfeil_Rechts.jpg
+@Brandschutzzeichen.Richtungspfeil_Rechts: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Richtungspfeil_Rechts.jpg,@0)
 
-@Gefahrstoffe.Entzuendlich
-    @diagnostik_image(Gefahrstoffe,Entzündlich.gif,@0)
-@end
+@Brandschutzzeichen.Brandbekaempfung.src: @diagnostik_url/Brandschutzzeichen/Brandbekämpfung.jpg
+@Brandschutzzeichen.Brandbekaempfung: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Brandbekämpfung.jpg,@0)
 
-@Gefahrstoffe.Aetzend_Reizend
-    @diagnostik_image(Gefahrstoffe,Ätzend_Reizend.gif,@0)
-@end
+@Brandschutzzeichen.Feuerloescher.src: @diagnostik_url/Brandschutzzeichen/Feuerlöscher.jpg
+@Brandschutzzeichen.Feuerloescher: @diagnostik_image(@diagnostik_url,Brandschutzzeichen/Feuerlöscher.jpg,@0)
 
-@Gefahrstoffe.Explosiv
-    @diagnostik_image(Gefahrstoffe,Explosiv.gif,@0)
-@end
+@Warnzeichen.Absturzgefahr.src: @diagnostik_url/Warnzeichen/Absturzgefahr.jpg
+@Warnzeichen.Absturzgefahr: @diagnostik_image(@diagnostik_url,Warnzeichen/Absturzgefahr.jpg,@0)
 
-@Gefahrstoffe.Giftig_Sehr_giftig
-    @diagnostik_image(Gefahrstoffe,Giftig_Sehr_giftig.gif,@0)
-@end
+@Warnzeichen.Schwebende_Last.src: @diagnostik_url/Warnzeichen/Schwebende_Last.jpg
+@Warnzeichen.Schwebende_Last: @diagnostik_image(@diagnostik_url,Warnzeichen/Schwebende_Last.jpg,@0)
 
-@Gefahrstoffe.Umweltgefaehrlich
-    @diagnostik_image(Gefahrstoffe,Umweltgefährlich.gif,@0)
-@end
+@Warnzeichen.Radioaktive_Stoffe.src: @diagnostik_url/Warnzeichen/Radioaktive_Stoffe.jpg
+@Warnzeichen.Radioaktive_Stoffe: @diagnostik_image(@diagnostik_url,Warnzeichen/Radioaktive_Stoffe.jpg,@0)
+
+@Warnzeichen.Heisse_Oberflaeche.src: @diagnostik_url/Warnzeichen/Heiße_Oberfläche.jpg
+@Warnzeichen.Heisse_Oberflaeche: @diagnostik_image(@diagnostik_url,Warnzeichen/Heiße_Oberfläche.jpg,@0)
+
+@Warnzeichen.Nicht_ionisierende_Strahlung.src: @diagnostik_url/Warnzeichen/Nicht_ionisierende_Strahlung.jpg
+@Warnzeichen.Nicht_ionisierende_Strahlung: @diagnostik_image(@diagnostik_url,Warnzeichen/Nicht_ionisierende_Strahlung.jpg,@0)
+
+@Warnzeichen.Flurfoerderzeugen.src: @diagnostik_url/Warnzeichen/Flurförderzeugen.jpg
+@Warnzeichen.Flurfoerderzeugen: @diagnostik_image(@diagnostik_url,Warnzeichen/Flurförderzeugen.jpg,@0)
+
+@Warnzeichen.Aetzende_Stoffe.src: @diagnostik_url/Warnzeichen/Ätzende_Stoffe.jpg
+@Warnzeichen.Aetzende_Stoffe: @diagnostik_image(@diagnostik_url,Warnzeichen/Ätzende_Stoffe.jpg,@0)
+
+@Warnzeichen.Magnetische_Felder.src: @diagnostik_url/Warnzeichen/Magnetische_Felder.jpg
+@Warnzeichen.Magnetische_Felder: @diagnostik_image(@diagnostik_url,Warnzeichen/Magnetische_Felder.jpg,@0)
+
+@Warnzeichen.Brandfoerdernde_Stoffe.src: @diagnostik_url/Warnzeichen/Brandfördernde_Stoffe.jpg
+@Warnzeichen.Brandfoerdernde_Stoffe: @diagnostik_image(@diagnostik_url,Warnzeichen/Brandfördernde_Stoffe.jpg,@0)
+
+@Warnzeichen.Laserstrahl.src: @diagnostik_url/Warnzeichen/Laserstrahl.jpg
+@Warnzeichen.Laserstrahl: @diagnostik_image(@diagnostik_url,Warnzeichen/Laserstrahl.jpg,@0)
+
+@Warnzeichen.Allgemeines_Warnzeichen.src: @diagnostik_url/Warnzeichen/Allgemeines_Warnzeichen.jpg
+@Warnzeichen.Allgemeines_Warnzeichen: @diagnostik_image(@diagnostik_url,Warnzeichen/Allgemeines_Warnzeichen.jpg,@0)
+
+@Warnzeichen.Explosionsfaehige_Stoffe.src: @diagnostik_url/Warnzeichen/Explosionsfähige_Stoffe.jpg
+@Warnzeichen.Explosionsfaehige_Stoffe: @diagnostik_image(@diagnostik_url,Warnzeichen/Explosionsfähige_Stoffe.jpg,@0)
+
+@Warnzeichen.Automatischer_Anlauf.src: @diagnostik_url/Warnzeichen/Automatischer_Anlauf.jpg
+@Warnzeichen.Automatischer_Anlauf: @diagnostik_image(@diagnostik_url,Warnzeichen/Automatischer_Anlauf.jpg,@0)
+
+@Warnzeichen.Niedrige_Temperatur_Frost.src: @diagnostik_url/Warnzeichen/Niedrige_Temperatur_Frost.jpg
+@Warnzeichen.Niedrige_Temperatur_Frost: @diagnostik_image(@diagnostik_url,Warnzeichen/Niedrige_Temperatur_Frost.jpg,@0)
+
+@Warnzeichen.Rutschgefahr.src: @diagnostik_url/Warnzeichen/Rutschgefahr.jpg
+@Warnzeichen.Rutschgefahr: @diagnostik_image(@diagnostik_url,Warnzeichen/Rutschgefahr.jpg,@0)
+
+@Warnzeichen.Explosionsfaehige_Atmosphaere.src: @diagnostik_url/Warnzeichen/Explosionsfähige_Atmosphäre.jpg
+@Warnzeichen.Explosionsfaehige_Atmosphaere: @diagnostik_image(@diagnostik_url,Warnzeichen/Explosionsfähige_Atmosphäre.jpg,@0)
+
+@Warnzeichen.Giftige_Stoffe.src: @diagnostik_url/Warnzeichen/Giftige_Stoffe.jpg
+@Warnzeichen.Giftige_Stoffe: @diagnostik_image(@diagnostik_url,Warnzeichen/Giftige_Stoffe.jpg,@0)
+
+@Warnzeichen.Biogefaehrdung.src: @diagnostik_url/Warnzeichen/Biogefährdung.jpg
+@Warnzeichen.Biogefaehrdung: @diagnostik_image(@diagnostik_url,Warnzeichen/Biogefährdung.jpg,@0)
+
+@Warnzeichen.Elektrische_Spannung.src: @diagnostik_url/Warnzeichen/Elektrische_Spannung.jpg
+@Warnzeichen.Elektrische_Spannung: @diagnostik_image(@diagnostik_url,Warnzeichen/Elektrische_Spannung.jpg,@0)
+
+@Warnzeichen.Hindernisse_am_Boden.src: @diagnostik_url/Warnzeichen/Hindernisse_am_Boden.jpg
+@Warnzeichen.Hindernisse_am_Boden: @diagnostik_image(@diagnostik_url,Warnzeichen/Hindernisse_am_Boden.jpg,@0)
+
+@Gefahrstoffe.Oxidierend.src: @diagnostik_url/Gefahrstoffe/Oxidierend.gif
+@Gefahrstoffe.Oxidierend: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Oxidierend.gif,@0)
+
+@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich.src: @diagnostik_url/Gefahrstoffe/Krebserregend_Gesundheitsschädlich.gif
+@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Krebserregend_Gesundheitsschädlich.gif,@0)
+
+@Gefahrstoffe.Reizend_Gesundheitsschaedlich.src: @diagnostik_url/Gefahrstoffe/Reizend_Gesundheitsschädlich.gif
+@Gefahrstoffe.Reizend_Gesundheitsschaedlich: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Reizend_Gesundheitsschädlich.gif,@0)
+
+@Gefahrstoffe.Komprimierte_Gase.src: @diagnostik_url/Gefahrstoffe/Komprimierte_Gase.gif
+@Gefahrstoffe.Komprimierte_Gase: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Komprimierte_Gase.gif,@0)
+
+@Gefahrstoffe.Entzuendlich.src: @diagnostik_url/Gefahrstoffe/Entzündlich.gif
+@Gefahrstoffe.Entzuendlich: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Entzündlich.gif,@0)
+
+@Gefahrstoffe.Aetzend_Reizend.src: @diagnostik_url/Gefahrstoffe/Ätzend_Reizend.gif
+@Gefahrstoffe.Aetzend_Reizend: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Ätzend_Reizend.gif,@0)
+
+@Gefahrstoffe.Explosiv.src: @diagnostik_url/Gefahrstoffe/Explosiv.gif
+@Gefahrstoffe.Explosiv: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Explosiv.gif,@0)
+
+@Gefahrstoffe.Giftig_Sehr_giftig.src: @diagnostik_url/Gefahrstoffe/Giftig_Sehr_giftig.gif
+@Gefahrstoffe.Giftig_Sehr_giftig: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Giftig_Sehr_giftig.gif,@0)
+
+@Gefahrstoffe.Umweltgefaehrlich.src: @diagnostik_url/Gefahrstoffe/Umweltgefährlich.gif
+@Gefahrstoffe.Umweltgefaehrlich: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Umweltgefährlich.gif,@0)
 
 -->
 
@@ -488,21 +369,30 @@ repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test
 # Anleitung
 
 Der Befehl zum einbinden eines Bildes lautet `@<Bereich>.<Name>(Größe)`
+Hängt man statt der Größe `.src` an den Befehl an, so wird der Link zum Bild angezeigt.
 Der Bereich ist der Ordnername, in dem sich das Bild befindet.
 Der Name ist der Dateiname ohne Endung.
-Alle Bereiche und Befehle um alle Bilder zu laden sind in den Tabellen weiter unten abgebildet.
+Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabellen weiter unten abgebildet.
 Die Größe ist in Zeilen angegeben, die das Bild hoch sein soll.
 Die Anzeige benötigt LiaScript!
 
-## Beispiel:
+## Beispiel
 
 `@Brandschutzzeichen.Brandbekaempfung(10)`
 
 @Brandschutzzeichen.Brandbekaempfung(10)
 
+`@Brandschutzzeichen.Brandbekaempfung.src`
+
+@Brandschutzzeichen.Brandbekaempfung.src
+
 `@Gefahrstoffe.Explosiv(10)`
 
 @Gefahrstoffe.Explosiv(10)
+
+`@Gefahrstoffe.Explosiv.src`
+
+@Gefahrstoffe.Explosiv.src
 
 ## Bereiche und Befehle
 
