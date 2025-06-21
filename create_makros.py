@@ -7,14 +7,14 @@ makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
 version: 0.2.0
-repository: https://github.com/vgoehler/DiAgnostiK_Bilder_Test 
+repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
-@diagnostik_url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img
+@diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/img
 
 @diagnostik_image: <img src="@0/@1" alt="@1" style="height: @2rem">
 '''
 
-location = 'https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md'
+location = 'https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md'
 
 how_to_use = f'''
 # Link zu LiaScript
@@ -29,13 +29,13 @@ how_to_use = f'''
 
 # Anleitung
 
-Der Befehl zum einbinden eines Bildes lautet `@<Bereich>.<Name>(Größe)`
-Hängt man statt der Größe `.src` an den Befehl an, so wird der Link zum Bild angezeigt.
-Der Bereich ist der Ordnername, in dem sich das Bild befindet.
-Der Name ist der Dateiname ohne Endung.
+> Der Befehl zum einbinden eines Bildes lautet `@<Bereich>.<Name>(Größe)`.
+> Hängt man statt der Größe `.src` an den Befehl an, so wird der Link zum Bild angezeigt. `@<Bereich>.<Name>.src`
+> - Der Bereich ist der Ordnername, in dem sich das Bild befindet.
+> - Der Name ist der Dateiname ohne Endung.
+> - Die Größe ist in Zeilen angegeben, die das Bild hoch sein soll.
 Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabellen weiter unten abgebildet.
-Die Größe ist in Zeilen angegeben, die das Bild hoch sein soll.
-Die Anzeige benötigt LiaScript!
+**Die Anzeige benötigt LiaScript!**
 
 ## Beispiel
 
