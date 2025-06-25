@@ -153,6 +153,45 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 @Gefahrstoffe.Explosiv.src: @diagnostik_url/Gefahrstoffe/Explosiv.gif
 @Gefahrstoffe.Explosiv: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Explosiv.gif,@0)
 
+@Hoelzer.Esche.src: @diagnostik_url/Hoelzer/Esche.jpg
+@Hoelzer.Esche: @diagnostik_image(@diagnostik_url,Hoelzer/Esche.jpg,@0)
+
+@Hoelzer.readme.src: @diagnostik_url/Hoelzer/readme.md
+@Hoelzer.readme: @diagnostik_image(@diagnostik_url,Hoelzer/readme.md,@0)
+
+@Hoelzer.Elsbeere.src: @diagnostik_url/Hoelzer/Elsbeere.jpg
+@Hoelzer.Elsbeere: @diagnostik_image(@diagnostik_url,Hoelzer/Elsbeere.jpg,@0)
+
+@Hoelzer.Ahorn.src: @diagnostik_url/Hoelzer/Ahorn.jpg
+@Hoelzer.Ahorn: @diagnostik_image(@diagnostik_url,Hoelzer/Ahorn.jpg,@0)
+
+@Hoelzer.Laerche.src: @diagnostik_url/Hoelzer/Lärche.jpg
+@Hoelzer.Laerche: @diagnostik_image(@diagnostik_url,Hoelzer/Lärche.jpg,@0)
+
+@Hoelzer.Birnbaum.src: @diagnostik_url/Hoelzer/Birnbaum.jpg
+@Hoelzer.Birnbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Birnbaum.jpg,@0)
+
+@Hoelzer.Kirschbaum.src: @diagnostik_url/Hoelzer/Kirschbaum.jpg
+@Hoelzer.Kirschbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Kirschbaum.jpg,@0)
+
+@Hoelzer.Nussbaum.src: @diagnostik_url/Hoelzer/Nussbaum.jpg
+@Hoelzer.Nussbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Nussbaum.jpg,@0)
+
+@Hoelzer.Kiefer.src: @diagnostik_url/Hoelzer/Kiefer.jpg
+@Hoelzer.Kiefer: @diagnostik_image(@diagnostik_url,Hoelzer/Kiefer.jpg,@0)
+
+@Hoelzer.Schwarzerle.src: @diagnostik_url/Hoelzer/Schwarzerle.jpg
+@Hoelzer.Schwarzerle: @diagnostik_image(@diagnostik_url,Hoelzer/Schwarzerle.jpg,@0)
+
+@Hoelzer.Douglasie.src: @diagnostik_url/Hoelzer/Douglasie.jpg
+@Hoelzer.Douglasie: @diagnostik_image(@diagnostik_url,Hoelzer/Douglasie.jpg,@0)
+
+@Hoelzer.Fichte.src: @diagnostik_url/Hoelzer/Fichte.jpg
+@Hoelzer.Fichte: @diagnostik_image(@diagnostik_url,Hoelzer/Fichte.jpg,@0)
+
+@Hoelzer.Birke.src: @diagnostik_url/Hoelzer/Birke.jpg
+@Hoelzer.Birke: @diagnostik_image(@diagnostik_url,Hoelzer/Birke.jpg,@0)
+
 @Rettungszeichen.Notruftelefon.src: @diagnostik_url/Rettungszeichen/Notruftelefon.jpg
 @Rettungszeichen.Notruftelefon: @diagnostik_image(@diagnostik_url,Rettungszeichen/Notruftelefon.jpg,@0)
 
@@ -461,6 +500,24 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Gefahrstoffe.Giftig_Sehr_giftig(10)|`Giftig_Sehr_giftig.gif`|`@Gefahrstoffe.Giftig_Sehr_giftig(10)`|
 |@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)|`Krebserregend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)`|
 |@Gefahrstoffe.Explosiv(10)|`Explosiv.gif`|`@Gefahrstoffe.Explosiv(10)`|
+
+### Hoelzer
+
+|Bild|Name|Befehl|
+|---|---|---|
+|@Hoelzer.Esche(10)|`Esche.jpg`|`@Hoelzer.Esche(10)`|
+|@Hoelzer.readme(10)|`readme.md`|`@Hoelzer.readme(10)`|
+|@Hoelzer.Elsbeere(10)|`Elsbeere.jpg`|`@Hoelzer.Elsbeere(10)`|
+|@Hoelzer.Ahorn(10)|`Ahorn.jpg`|`@Hoelzer.Ahorn(10)`|
+|@Hoelzer.Laerche(10)|`Lärche.jpg`|`@Hoelzer.Laerche(10)`|
+|@Hoelzer.Birnbaum(10)|`Birnbaum.jpg`|`@Hoelzer.Birnbaum(10)`|
+|@Hoelzer.Kirschbaum(10)|`Kirschbaum.jpg`|`@Hoelzer.Kirschbaum(10)`|
+|@Hoelzer.Nussbaum(10)|`Nussbaum.jpg`|`@Hoelzer.Nussbaum(10)`|
+|@Hoelzer.Kiefer(10)|`Kiefer.jpg`|`@Hoelzer.Kiefer(10)`|
+|@Hoelzer.Schwarzerle(10)|`Schwarzerle.jpg`|`@Hoelzer.Schwarzerle(10)`|
+|@Hoelzer.Douglasie(10)|`Douglasie.jpg`|`@Hoelzer.Douglasie(10)`|
+|@Hoelzer.Fichte(10)|`Fichte.jpg`|`@Hoelzer.Fichte(10)`|
+|@Hoelzer.Birke(10)|`Birke.jpg`|`@Hoelzer.Birke(10)`|
 
 ### Rettungszeichen
 
