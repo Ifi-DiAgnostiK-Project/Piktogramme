@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.0
+version: 0.2.1
 repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/img
@@ -155,9 +155,6 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 @Hoelzer.Esche.src: @diagnostik_url/Hoelzer/Esche.jpg
 @Hoelzer.Esche: @diagnostik_image(@diagnostik_url,Hoelzer/Esche.jpg,@0)
-
-@Hoelzer.readme.src: @diagnostik_url/Hoelzer/readme.md
-@Hoelzer.readme: @diagnostik_image(@diagnostik_url,Hoelzer/readme.md,@0)
 
 @Hoelzer.Elsbeere.src: @diagnostik_url/Hoelzer/Elsbeere.jpg
 @Hoelzer.Elsbeere: @diagnostik_image(@diagnostik_url,Hoelzer/Elsbeere.jpg,@0)
@@ -506,7 +503,6 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |Bild|Name|Befehl|
 |---|---|---|
 |@Hoelzer.Esche(10)|`Esche.jpg`|`@Hoelzer.Esche(10)`|
-|@Hoelzer.readme(10)|`readme.md`|`@Hoelzer.readme(10)`|
 |@Hoelzer.Elsbeere(10)|`Elsbeere.jpg`|`@Hoelzer.Elsbeere(10)`|
 |@Hoelzer.Ahorn(10)|`Ahorn.jpg`|`@Hoelzer.Ahorn(10)`|
 |@Hoelzer.Laerche(10)|`Lärche.jpg`|`@Hoelzer.Laerche(10)`|
