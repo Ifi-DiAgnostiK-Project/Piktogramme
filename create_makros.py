@@ -6,7 +6,7 @@ ignore_dirs = ['Collections']
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.0
+version: 0.2.1
 repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/img
@@ -80,16 +80,24 @@ def process_folders(base_path):
 
     return "\n".join(makros) + "\n".join(showcase)
 
+def is_image_file(filename):
+    """Check if the file is an image based on its extension."""
+    image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp')
+    return filename.lower().endswith(image_extensions)
+
 def process_file(parent_folder, makros, showcase):
     """This writes a makro and a showcase for all files in a given folder."""
     for item in os.listdir(parent_folder):
-        filename = get_name(item)
-        entry = os.path.basename(parent_folder)
-        makros.append("")
-        makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
-        makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
+        full_path = os.path.join(parent_folder, item)
+        if os.path.isfile(full_path) and is_image_file(item):
+            # Only process image files
+            filename = get_name(item)
+            entry = os.path.basename(parent_folder)
+            makros.append("")
+            makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
+            makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
 
-        showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
+            showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
 
 def get_name(filepath):
     """this returns the name of the image file without the extension."""
