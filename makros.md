@@ -198,6 +198,9 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 @Hoelzer.Weisstanne.src: @diagnostik_url/Hoelzer/Weisstanne.jpg
 @Hoelzer.Weisstanne: @diagnostik_image(@diagnostik_url,Hoelzer/Weisstanne.jpg,@0)
 
+@Hoelzer.Pockholz.src: @diagnostik_url/Hoelzer/Pockholz.jpg
+@Hoelzer.Pockholz: @diagnostik_image(@diagnostik_url,Hoelzer/Pockholz.jpg,@0)
+
 @Hoelzer.Roteiche.src: @diagnostik_url/Hoelzer/Roteiche.jpg
 @Hoelzer.Roteiche: @diagnostik_image(@diagnostik_url,Hoelzer/Roteiche.jpg,@0)
 
@@ -209,6 +212,9 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 @Hoelzer.Laerche.src: @diagnostik_url/Hoelzer/Laerche.jpg
 @Hoelzer.Laerche: @diagnostik_image(@diagnostik_url,Hoelzer/Laerche.jpg,@0)
+
+@Hoelzer.Balsa.src: @diagnostik_url/Hoelzer/Balsa.jpg
+@Hoelzer.Balsa: @diagnostik_image(@diagnostik_url,Hoelzer/Balsa.jpg,@0)
 
 @Hoelzer.Fichte.src: @diagnostik_url/Hoelzer/Fichte.jpg
 @Hoelzer.Fichte: @diagnostik_image(@diagnostik_url,Hoelzer/Fichte.jpg,@0)
@@ -544,10 +550,12 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Hoelzer.Buche(10)|`Buche.jpg`|`@Hoelzer.Buche(10)`|
 |@Hoelzer.Ulme_Ruester(10)|`Ulme_Ruester.jpg`|`@Hoelzer.Ulme_Ruester(10)`|
 |@Hoelzer.Weisstanne(10)|`Weisstanne.jpg`|`@Hoelzer.Weisstanne(10)`|
+|@Hoelzer.Pockholz(10)|`Pockholz.jpg`|`@Hoelzer.Pockholz(10)`|
 |@Hoelzer.Roteiche(10)|`Roteiche.jpg`|`@Hoelzer.Roteiche(10)`|
 |@Hoelzer.Schwarzerle(10)|`Schwarzerle.jpg`|`@Hoelzer.Schwarzerle(10)`|
 |@Hoelzer.Douglasie(10)|`Douglasie.jpg`|`@Hoelzer.Douglasie(10)`|
 |@Hoelzer.Laerche(10)|`Laerche.jpg`|`@Hoelzer.Laerche(10)`|
+|@Hoelzer.Balsa(10)|`Balsa.jpg`|`@Hoelzer.Balsa(10)`|
 |@Hoelzer.Fichte(10)|`Fichte.jpg`|`@Hoelzer.Fichte(10)`|
 |@Hoelzer.Birke(10)|`Birke.jpg`|`@Hoelzer.Birke(10)`|
 
