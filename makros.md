@@ -330,75 +330,6 @@ repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 @Rettungszeichen.Krankentrage.src: @diagnostik_url/Rettungszeichen/Krankentrage.jpg
 @Rettungszeichen.Krankentrage: @diagnostik_image(@diagnostik_url,Rettungszeichen/Krankentrage.jpg,@0)
 
-@Hoelzer.Pappel.src: @diagnostik_url/Hoelzer/Pappel.jpg
-@Hoelzer.Pappel: @diagnostik_image(@diagnostik_url,Hoelzer/Pappel.jpg,@0)
-
-@Hoelzer.Balsa.src: @diagnostik_url/Hoelzer/Balsa.jpg
-@Hoelzer.Balsa: @diagnostik_image(@diagnostik_url,Hoelzer/Balsa.jpg,@0)
-
-@Hoelzer.Birke.src: @diagnostik_url/Hoelzer/Birke.jpg
-@Hoelzer.Birke: @diagnostik_image(@diagnostik_url,Hoelzer/Birke.jpg,@0)
-
-@Hoelzer.Laerche.src: @diagnostik_url/Hoelzer/Laerche.jpg
-@Hoelzer.Laerche: @diagnostik_image(@diagnostik_url,Hoelzer/Laerche.jpg,@0)
-
-@Hoelzer.Schwarzerle.src: @diagnostik_url/Hoelzer/Schwarzerle.jpg
-@Hoelzer.Schwarzerle: @diagnostik_image(@diagnostik_url,Hoelzer/Schwarzerle.jpg,@0)
-
-@Hoelzer.Weisstanne.src: @diagnostik_url/Hoelzer/Weisstanne.jpg
-@Hoelzer.Weisstanne: @diagnostik_image(@diagnostik_url,Hoelzer/Weisstanne.jpg,@0)
-
-@Hoelzer.Kiefer.src: @diagnostik_url/Hoelzer/Kiefer.jpg
-@Hoelzer.Kiefer: @diagnostik_image(@diagnostik_url,Hoelzer/Kiefer.jpg,@0)
-
-@Hoelzer.Ahorn.src: @diagnostik_url/Hoelzer/Ahorn.jpg
-@Hoelzer.Ahorn: @diagnostik_image(@diagnostik_url,Hoelzer/Ahorn.jpg,@0)
-
-@Hoelzer.Roteiche.src: @diagnostik_url/Hoelzer/Roteiche.jpg
-@Hoelzer.Roteiche: @diagnostik_image(@diagnostik_url,Hoelzer/Roteiche.jpg,@0)
-
-@Hoelzer.Pockholz.src: @diagnostik_url/Hoelzer/Pockholz.jpg
-@Hoelzer.Pockholz: @diagnostik_image(@diagnostik_url,Hoelzer/Pockholz.jpg,@0)
-
-@Hoelzer.Kirschbaum.src: @diagnostik_url/Hoelzer/Kirschbaum.jpg
-@Hoelzer.Kirschbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Kirschbaum.jpg,@0)
-
-@Hoelzer.Buche.src: @diagnostik_url/Hoelzer/Buche.jpg
-@Hoelzer.Buche: @diagnostik_image(@diagnostik_url,Hoelzer/Buche.jpg,@0)
-
-@Hoelzer.Ulme_Ruester.src: @diagnostik_url/Hoelzer/Ulme_Ruester.jpg
-@Hoelzer.Ulme_Ruester: @diagnostik_image(@diagnostik_url,Hoelzer/Ulme_Ruester.jpg,@0)
-
-@Hoelzer.Douglasie.src: @diagnostik_url/Hoelzer/Douglasie.jpg
-@Hoelzer.Douglasie: @diagnostik_image(@diagnostik_url,Hoelzer/Douglasie.jpg,@0)
-
-@Hoelzer.Nussbaum.src: @diagnostik_url/Hoelzer/Nussbaum.jpg
-@Hoelzer.Nussbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Nussbaum.jpg,@0)
-
-@Hoelzer.Linde.src: @diagnostik_url/Hoelzer/Linde.jpg
-@Hoelzer.Linde: @diagnostik_image(@diagnostik_url,Hoelzer/Linde.jpg,@0)
-
-@Hoelzer.Edelkastanie.src: @diagnostik_url/Hoelzer/Edelkastanie.jpg
-@Hoelzer.Edelkastanie: @diagnostik_image(@diagnostik_url,Hoelzer/Edelkastanie.jpg,@0)
-
-@Hoelzer.Elsbeere.src: @diagnostik_url/Hoelzer/Elsbeere.jpg
-@Hoelzer.Elsbeere: @diagnostik_image(@diagnostik_url,Hoelzer/Elsbeere.jpg,@0)
-
-@Hoelzer.Robinie.src: @diagnostik_url/Hoelzer/Robinie.jpg
-@Hoelzer.Robinie: @diagnostik_image(@diagnostik_url,Hoelzer/Robinie.jpg,@0)
-
-@Hoelzer.Esche.src: @diagnostik_url/Hoelzer/Esche.jpg
-@Hoelzer.Esche: @diagnostik_image(@diagnostik_url,Hoelzer/Esche.jpg,@0)
-
-@Hoelzer.Fichte.src: @diagnostik_url/Hoelzer/Fichte.jpg
-@Hoelzer.Fichte: @diagnostik_image(@diagnostik_url,Hoelzer/Fichte.jpg,@0)
-
-@Hoelzer.Birnbaum.src: @diagnostik_url/Hoelzer/Birnbaum.jpg
-@Hoelzer.Birnbaum: @diagnostik_image(@diagnostik_url,Hoelzer/Birnbaum.jpg,@0)
-
-@Hoelzer.Weisseiche.src: @diagnostik_url/Hoelzer/Weisseiche.jpg
-@Hoelzer.Weisseiche: @diagnostik_image(@diagnostik_url,Hoelzer/Weisseiche.jpg,@0)
-
 @Gefahrstoffe.Giftig_Sehr_giftig.src: @diagnostik_url/Gefahrstoffe/Giftig_Sehr_giftig.gif
 @Gefahrstoffe.Giftig_Sehr_giftig: @diagnostik_image(@diagnostik_url,Gefahrstoffe/Giftig_Sehr_giftig.gif,@0)
 
@@ -607,34 +538,6 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 |@Rettungszeichen.Rettungsweg_Notausgang_links(10)|`Rettungsweg_Notausgang_links.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang_links(10)`|
 |@Rettungszeichen.Rettungsausstieg(10)|`Rettungsausstieg.jpg`|`@Rettungszeichen.Rettungsausstieg(10)`|
 |@Rettungszeichen.Krankentrage(10)|`Krankentrage.jpg`|`@Rettungszeichen.Krankentrage(10)`|
-
-### Hoelzer
-
-|Bild|Name|Befehl|
-|---|---|---|
-|@Hoelzer.Pappel(10)|`Pappel.jpg`|`@Hoelzer.Pappel(10)`|
-|@Hoelzer.Balsa(10)|`Balsa.jpg`|`@Hoelzer.Balsa(10)`|
-|@Hoelzer.Birke(10)|`Birke.jpg`|`@Hoelzer.Birke(10)`|
-|@Hoelzer.Laerche(10)|`Laerche.jpg`|`@Hoelzer.Laerche(10)`|
-|@Hoelzer.Schwarzerle(10)|`Schwarzerle.jpg`|`@Hoelzer.Schwarzerle(10)`|
-|@Hoelzer.Weisstanne(10)|`Weisstanne.jpg`|`@Hoelzer.Weisstanne(10)`|
-|@Hoelzer.Kiefer(10)|`Kiefer.jpg`|`@Hoelzer.Kiefer(10)`|
-|@Hoelzer.Ahorn(10)|`Ahorn.jpg`|`@Hoelzer.Ahorn(10)`|
-|@Hoelzer.Roteiche(10)|`Roteiche.jpg`|`@Hoelzer.Roteiche(10)`|
-|@Hoelzer.Pockholz(10)|`Pockholz.jpg`|`@Hoelzer.Pockholz(10)`|
-|@Hoelzer.Kirschbaum(10)|`Kirschbaum.jpg`|`@Hoelzer.Kirschbaum(10)`|
-|@Hoelzer.Buche(10)|`Buche.jpg`|`@Hoelzer.Buche(10)`|
-|@Hoelzer.Ulme_Ruester(10)|`Ulme_Ruester.jpg`|`@Hoelzer.Ulme_Ruester(10)`|
-|@Hoelzer.Douglasie(10)|`Douglasie.jpg`|`@Hoelzer.Douglasie(10)`|
-|@Hoelzer.Nussbaum(10)|`Nussbaum.jpg`|`@Hoelzer.Nussbaum(10)`|
-|@Hoelzer.Linde(10)|`Linde.jpg`|`@Hoelzer.Linde(10)`|
-|@Hoelzer.Edelkastanie(10)|`Edelkastanie.jpg`|`@Hoelzer.Edelkastanie(10)`|
-|@Hoelzer.Elsbeere(10)|`Elsbeere.jpg`|`@Hoelzer.Elsbeere(10)`|
-|@Hoelzer.Robinie(10)|`Robinie.jpg`|`@Hoelzer.Robinie(10)`|
-|@Hoelzer.Esche(10)|`Esche.jpg`|`@Hoelzer.Esche(10)`|
-|@Hoelzer.Fichte(10)|`Fichte.jpg`|`@Hoelzer.Fichte(10)`|
-|@Hoelzer.Birnbaum(10)|`Birnbaum.jpg`|`@Hoelzer.Birnbaum(10)`|
-|@Hoelzer.Weisseiche(10)|`Weisseiche.jpg`|`@Hoelzer.Weisseiche(10)`|
 
 ### Gefahrstoffe
 
