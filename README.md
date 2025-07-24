@@ -18,7 +18,7 @@ comment: This repository is a collection of Safety Signs for the DiAgnostiK Proj
 [![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/README.md)
 
 # DiAgnostiK Piktogramme
-Repository für unsere Sicherheitszeichen
+Repository für unsere Sicherheitszeichen nach ISO 7010.
 
 - Link zur LiaScript [Bildhilfe](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#24)! 😃
 
