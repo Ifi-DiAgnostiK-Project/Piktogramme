@@ -6,8 +6,11 @@ ignore_dirs = ['Collections']
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.1
+version: 0.2.2
 repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
+
+title: DiAgnostiK ISO 7010 Sicherheitssymbole Makros
+tags: Wissensspeicher
 
 @diagnostik_url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/img
 
