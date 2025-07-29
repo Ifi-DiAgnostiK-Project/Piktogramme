@@ -90,7 +90,7 @@ def is_image_file(filename):
     return filename.lower().endswith(image_extensions)
 
 def clean_filename(filename):
-    itemname = Path(item).stem
+    itemname = Path(filename).stem
     return itemname.replace('_', ' ').replace('-', ' ')
 
 def process_file(parent_folder, makros, showcase):
