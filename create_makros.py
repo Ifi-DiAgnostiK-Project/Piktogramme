@@ -1,12 +1,13 @@
 import re
 import os
+from pathlib import Path
 
 ignore_dirs = ['Collections']
 
 makros_setup = '''<!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.2
+version: 0.2.3
 repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 title: DiAgnostiK ISO 7010 Sicherheitssymbole Makros
@@ -88,6 +89,10 @@ def is_image_file(filename):
     image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp')
     return filename.lower().endswith(image_extensions)
 
+def clean_filename(filename):
+    itemname = Path(item).stem
+    return itemname.replace('_', ' ').replace('-', ' ')
+
 def process_file(parent_folder, makros, showcase):
     """This writes a makro and a showcase for all files in a given folder."""
     for item in os.listdir(parent_folder):
@@ -100,7 +105,8 @@ def process_file(parent_folder, makros, showcase):
             makros.append(f'@{entry}.{filename}.src: @diagnostik_url/{entry}/{item}')
             makros.append(f'@{entry}.{filename}: @diagnostik_image(@diagnostik_url,{entry}/{item},@0)')
 
-            showcase.append(f"|@{entry}.{filename}(10)|`{item}`|`@{entry}.{filename}(10)`|")
+            itemname = clean_filename(item)
+            showcase.append(f"|@{entry}.{filename}(10)|_{itemname}_|`@{entry}.{filename}(10)`|")
 
 def get_name(filepath):
     """this returns the name of the image file without the extension."""
