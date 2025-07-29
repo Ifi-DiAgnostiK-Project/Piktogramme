@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler, Niklas Werner
 email: volker.goehler@informatik.tu-freiberg
-version: 0.2.2
+version: 0.2.3
 repository: https://github.com/Ifi-DiAgnostiK-Project/Piktogramme
 
 title: DiAgnostiK ISO 7010 Sicherheitssymbole Makros
@@ -409,149 +409,149 @@ Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgeliste
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)|`Richtungspfeil_Rechts_unten.jpg`|`@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)`|
-|@Brandschutzzeichen.Brandmelder(10)|`Brandmelder.jpg`|`@Brandschutzzeichen.Brandmelder(10)`|
-|@Brandschutzzeichen.Feuerloescher(10)|`Feuerlöscher.jpg`|`@Brandschutzzeichen.Feuerloescher(10)`|
-|@Brandschutzzeichen.Brandbekaempfung(10)|`Brandbekämpfung.jpg`|`@Brandschutzzeichen.Brandbekaempfung(10)`|
-|@Brandschutzzeichen.Feuerleiter(10)|`Feuerleiter.jpg`|`@Brandschutzzeichen.Feuerleiter(10)`|
-|@Brandschutzzeichen.Richtungspfeil_Rechts(10)|`Richtungspfeil_Rechts.jpg`|`@Brandschutzzeichen.Richtungspfeil_Rechts(10)`|
-|@Brandschutzzeichen.Brandmeldetelefon(10)|`Brandmeldetelefon.jpg`|`@Brandschutzzeichen.Brandmeldetelefon(10)`|
-|@Brandschutzzeichen.Loeschschlauch(10)|`Löschschlauch.jpg`|`@Brandschutzzeichen.Loeschschlauch(10)`|
+|@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)|_Richtungspfeil Rechts unten_|`@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)`|
+|@Brandschutzzeichen.Brandmelder(10)|_Brandmelder_|`@Brandschutzzeichen.Brandmelder(10)`|
+|@Brandschutzzeichen.Feuerloescher(10)|_Feuerlöscher_|`@Brandschutzzeichen.Feuerloescher(10)`|
+|@Brandschutzzeichen.Brandbekaempfung(10)|_Brandbekämpfung_|`@Brandschutzzeichen.Brandbekaempfung(10)`|
+|@Brandschutzzeichen.Feuerleiter(10)|_Feuerleiter_|`@Brandschutzzeichen.Feuerleiter(10)`|
+|@Brandschutzzeichen.Richtungspfeil_Rechts(10)|_Richtungspfeil Rechts_|`@Brandschutzzeichen.Richtungspfeil_Rechts(10)`|
+|@Brandschutzzeichen.Brandmeldetelefon(10)|_Brandmeldetelefon_|`@Brandschutzzeichen.Brandmeldetelefon(10)`|
+|@Brandschutzzeichen.Loeschschlauch(10)|_Löschschlauch_|`@Brandschutzzeichen.Loeschschlauch(10)`|
 
 ### Verbotszeichen
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Verbotszeichen.Allgemeines_Verbotszeichen(10)|`Allgemeines_Verbotszeichen.jpg`|`@Verbotszeichen.Allgemeines_Verbotszeichen(10)`|
-|@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)|`Benutzen_von_Handschuhen_verboten.jpg`|`@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)`|
-|@Verbotszeichen.Rauchen_verboten(10)|`Rauchen_verboten.jpg`|`@Verbotszeichen.Rauchen_verboten(10)`|
-|@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)|`Für_Flurförderzeuge_verboten.jpg`|`@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)`|
-|@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)|`Zutritt_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)`|
-|@Verbotszeichen.Essen_und_Trinken_verboten(10)|`Essen_und_Trinken_verboten.jpg`|`@Verbotszeichen.Essen_und_Trinken_verboten(10)`|
-|@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)|`Mit_Wasser_löschen_verboten.jpg`|`@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)`|
-|@Verbotszeichen.Personenbefoerderung_verboten(10)|`Personenbeförderung_verboten.jpg`|`@Verbotszeichen.Personenbefoerderung_verboten(10)`|
-|@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)|`Mit_Wasser_spritzen_verboten.jpg`|`@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)`|
-|@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen(10)|`Aufzug_im_Brandfall_nicht_benutzen.jpg`|`@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen(10)`|
-|@Verbotszeichen.Kein_Trinkwasser(10)|`Kein_Trinkwasser.jpg`|`@Verbotszeichen.Kein_Trinkwasser(10)`|
-|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)|`Kein_Zutritt_für_Personen_mit_Implantaten.jpg`|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)`|
-|@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)|`Besteigen_für_Unbefugte_verboten.jpg`|`@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)`|
-|@Verbotszeichen.Beruehren_verboten(10)|`Berühren_verboten.jpg`|`@Verbotszeichen.Beruehren_verboten(10)`|
-|@Verbotszeichen.Abstellen_oder_Lagern_verboten(10)|`Abstellen_oder_Lagern_verboten.jpg`|`@Verbotszeichen.Abstellen_oder_Lagern_verboten(10)`|
-|@Verbotszeichen.Hineinfassen_verboten(10)|`Hineinfassen_verboten.jpg`|`@Verbotszeichen.Hineinfassen_verboten(10)`|
-|@Verbotszeichen.Laufen_verboten(10)|`Laufen_verboten.jpg`|`@Verbotszeichen.Laufen_verboten(10)`|
-|@Verbotszeichen.Keine_schwere_Last(10)|`Keine_schwere_Last.jpg`|`@Verbotszeichen.Keine_schwere_Last(10)`|
-|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)|`Kein_Zutritt_für_Personen_mit_Herzschrittmacher.jpg`|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)`|
-|@Verbotszeichen.Keine_Offene_Flamme(10)|`Keine_Offene_Flamme.jpg`|`@Verbotszeichen.Keine_Offene_Flamme(10)`|
-|@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)|`Mitführen_von_Hunden_verboten.jpg`|`@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)`|
-|@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)|`Eingeschaltete_Mobiltelefone_verboten.jpg`|`@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)`|
-|@Verbotszeichen.Fuer_Fussgaenger_verboten(10)|`Für_Fußgänger_verboten.jpg`|`@Verbotszeichen.Fuer_Fussgaenger_verboten(10)`|
-|@Verbotszeichen.Schalten_verboten(10)|`Schalten_verboten.jpg`|`@Verbotszeichen.Schalten_verboten(10)`|
-|@Verbotszeichen.Betreten_der_Flaeche_verboten(10)|`Betreten_der_Fläche_verboten.jpg`|`@Verbotszeichen.Betreten_der_Flaeche_verboten(10)`|
+|@Verbotszeichen.Allgemeines_Verbotszeichen(10)|_Allgemeines Verbotszeichen_|`@Verbotszeichen.Allgemeines_Verbotszeichen(10)`|
+|@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)|_Benutzen von Handschuhen verboten_|`@Verbotszeichen.Benutzen_von_Handschuhen_verboten(10)`|
+|@Verbotszeichen.Rauchen_verboten(10)|_Rauchen verboten_|`@Verbotszeichen.Rauchen_verboten(10)`|
+|@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)|_Für Flurförderzeuge verboten_|`@Verbotszeichen.Fuer_Flurfoerderzeuge_verboten(10)`|
+|@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)|_Zutritt für Unbefugte verboten_|`@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)`|
+|@Verbotszeichen.Essen_und_Trinken_verboten(10)|_Essen und Trinken verboten_|`@Verbotszeichen.Essen_und_Trinken_verboten(10)`|
+|@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)|_Mit Wasser löschen verboten_|`@Verbotszeichen.Mit_Wasser_loeschen_verboten(10)`|
+|@Verbotszeichen.Personenbefoerderung_verboten(10)|_Personenbeförderung verboten_|`@Verbotszeichen.Personenbefoerderung_verboten(10)`|
+|@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)|_Mit Wasser spritzen verboten_|`@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)`|
+|@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen(10)|_Aufzug im Brandfall nicht benutzen_|`@Verbotszeichen.Aufzug_im_Brandfall_nicht_benutzen(10)`|
+|@Verbotszeichen.Kein_Trinkwasser(10)|_Kein Trinkwasser_|`@Verbotszeichen.Kein_Trinkwasser(10)`|
+|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)|_Kein Zutritt für Personen mit Implantaten_|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Implantaten(10)`|
+|@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)|_Besteigen für Unbefugte verboten_|`@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)`|
+|@Verbotszeichen.Beruehren_verboten(10)|_Berühren verboten_|`@Verbotszeichen.Beruehren_verboten(10)`|
+|@Verbotszeichen.Abstellen_oder_Lagern_verboten(10)|_Abstellen oder Lagern verboten_|`@Verbotszeichen.Abstellen_oder_Lagern_verboten(10)`|
+|@Verbotszeichen.Hineinfassen_verboten(10)|_Hineinfassen verboten_|`@Verbotszeichen.Hineinfassen_verboten(10)`|
+|@Verbotszeichen.Laufen_verboten(10)|_Laufen verboten_|`@Verbotszeichen.Laufen_verboten(10)`|
+|@Verbotszeichen.Keine_schwere_Last(10)|_Keine schwere Last_|`@Verbotszeichen.Keine_schwere_Last(10)`|
+|@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)|_Kein Zutritt für Personen mit Herzschrittmacher_|`@Verbotszeichen.Kein_Zutritt_fuer_Personen_mit_Herzschrittmacher(10)`|
+|@Verbotszeichen.Keine_Offene_Flamme(10)|_Keine Offene Flamme_|`@Verbotszeichen.Keine_Offene_Flamme(10)`|
+|@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)|_Mitführen von Hunden verboten_|`@Verbotszeichen.Mitfuehren_von_Hunden_verboten(10)`|
+|@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)|_Eingeschaltete Mobiltelefone verboten_|`@Verbotszeichen.Eingeschaltete_Mobiltelefone_verboten(10)`|
+|@Verbotszeichen.Fuer_Fussgaenger_verboten(10)|_Für Fußgänger verboten_|`@Verbotszeichen.Fuer_Fussgaenger_verboten(10)`|
+|@Verbotszeichen.Schalten_verboten(10)|_Schalten verboten_|`@Verbotszeichen.Schalten_verboten(10)`|
+|@Verbotszeichen.Betreten_der_Flaeche_verboten(10)|_Betreten der Fläche verboten_|`@Verbotszeichen.Betreten_der_Flaeche_verboten(10)`|
 
 ### Gebotszeichen
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Gebotszeichen.Rueckhaltesystem(10)|`Rückhaltesystem.jpg`|`@Gebotszeichen.Rueckhaltesystem(10)`|
-|@Gebotszeichen.Rettungsweste_benutzen(10)|`Rettungsweste_benutzen.jpg`|`@Gebotszeichen.Rettungsweste_benutzen(10)`|
-|@Gebotszeichen.Uebergang(10)|`Übergang.jpg`|`@Gebotszeichen.Uebergang(10)`|
-|@Gebotszeichen.Augenschutz(10)|`Augenschutz.jpg`|`@Gebotszeichen.Augenschutz(10)`|
-|@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)|`Wartung_oder_Reparatur_freischalten.jpg`|`@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)`|
-|@Gebotszeichen.Hautschutzmittel(10)|`Hautschutzmittel.jpg`|`@Gebotszeichen.Hautschutzmittel(10)`|
-|@Gebotszeichen.Handlauf(10)|`Handlauf.jpg`|`@Gebotszeichen.Handlauf(10)`|
-|@Gebotszeichen.Gesichtsschutz(10)|`Gesichtsschutz.jpg`|`@Gebotszeichen.Gesichtsschutz(10)`|
-|@Gebotszeichen.Schutzschuerze(10)|`Schutzschürze.jpg`|`@Gebotszeichen.Schutzschuerze(10)`|
-|@Gebotszeichen.Schutzkleidung(10)|`Schutzkleidung.jpg`|`@Gebotszeichen.Schutzkleidung(10)`|
-|@Gebotszeichen.Haende_waschen(10)|`Hände_waschen.jpg`|`@Gebotszeichen.Haende_waschen(10)`|
-|@Gebotszeichen.Auffanggurte(10)|`Auffanggurte.jpg`|`@Gebotszeichen.Auffanggurte(10)`|
-|@Gebotszeichen.Gehoerschutz(10)|`Gehörschutz.jpg`|`@Gebotszeichen.Gehoerschutz(10)`|
-|@Gebotszeichen.Fussschutz(10)|`Fußschutz.jpg`|`@Gebotszeichen.Fussschutz(10)`|
-|@Gebotszeichen.Kopfschutz(10)|`Kopfschutz.jpg`|`@Gebotszeichen.Kopfschutz(10)`|
-|@Gebotszeichen.Fussgaengerweg(10)|`Fußgängerweg.jpg`|`@Gebotszeichen.Fussgaengerweg(10)`|
-|@Gebotszeichen.Handschuh(10)|`Handschuh.jpg`|`@Gebotszeichen.Handschuh(10)`|
-|@Gebotszeichen.Warnweste(10)|`Warnweste.jpg`|`@Gebotszeichen.Warnweste(10)`|
-|@Gebotszeichen.Ausrufezeichen(10)|`Ausrufezeichen.jpg`|`@Gebotszeichen.Ausrufezeichen(10)`|
-|@Gebotszeichen.Atemschutz(10)|`Atemschutz.jpg`|`@Gebotszeichen.Atemschutz(10)`|
+|@Gebotszeichen.Rueckhaltesystem(10)|_Rückhaltesystem_|`@Gebotszeichen.Rueckhaltesystem(10)`|
+|@Gebotszeichen.Rettungsweste_benutzen(10)|_Rettungsweste benutzen_|`@Gebotszeichen.Rettungsweste_benutzen(10)`|
+|@Gebotszeichen.Uebergang(10)|_Übergang_|`@Gebotszeichen.Uebergang(10)`|
+|@Gebotszeichen.Augenschutz(10)|_Augenschutz_|`@Gebotszeichen.Augenschutz(10)`|
+|@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)|_Wartung oder Reparatur freischalten_|`@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)`|
+|@Gebotszeichen.Hautschutzmittel(10)|_Hautschutzmittel_|`@Gebotszeichen.Hautschutzmittel(10)`|
+|@Gebotszeichen.Handlauf(10)|_Handlauf_|`@Gebotszeichen.Handlauf(10)`|
+|@Gebotszeichen.Gesichtsschutz(10)|_Gesichtsschutz_|`@Gebotszeichen.Gesichtsschutz(10)`|
+|@Gebotszeichen.Schutzschuerze(10)|_Schutzschürze_|`@Gebotszeichen.Schutzschuerze(10)`|
+|@Gebotszeichen.Schutzkleidung(10)|_Schutzkleidung_|`@Gebotszeichen.Schutzkleidung(10)`|
+|@Gebotszeichen.Haende_waschen(10)|_Hände waschen_|`@Gebotszeichen.Haende_waschen(10)`|
+|@Gebotszeichen.Auffanggurte(10)|_Auffanggurte_|`@Gebotszeichen.Auffanggurte(10)`|
+|@Gebotszeichen.Gehoerschutz(10)|_Gehörschutz_|`@Gebotszeichen.Gehoerschutz(10)`|
+|@Gebotszeichen.Fussschutz(10)|_Fußschutz_|`@Gebotszeichen.Fussschutz(10)`|
+|@Gebotszeichen.Kopfschutz(10)|_Kopfschutz_|`@Gebotszeichen.Kopfschutz(10)`|
+|@Gebotszeichen.Fussgaengerweg(10)|_Fußgängerweg_|`@Gebotszeichen.Fussgaengerweg(10)`|
+|@Gebotszeichen.Handschuh(10)|_Handschuh_|`@Gebotszeichen.Handschuh(10)`|
+|@Gebotszeichen.Warnweste(10)|_Warnweste_|`@Gebotszeichen.Warnweste(10)`|
+|@Gebotszeichen.Ausrufezeichen(10)|_Ausrufezeichen_|`@Gebotszeichen.Ausrufezeichen(10)`|
+|@Gebotszeichen.Atemschutz(10)|_Atemschutz_|`@Gebotszeichen.Atemschutz(10)`|
 
 ### Warnzeichen
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Warnzeichen.Brandfoerdernde_Stoffe(10)|`Brandfördernde_Stoffe.jpg`|`@Warnzeichen.Brandfoerdernde_Stoffe(10)`|
-|@Warnzeichen.Hindernisse_am_Boden(10)|`Hindernisse_am_Boden.jpg`|`@Warnzeichen.Hindernisse_am_Boden(10)`|
-|@Warnzeichen.Aetzende_Stoffe(10)|`Ätzende_Stoffe.jpg`|`@Warnzeichen.Aetzende_Stoffe(10)`|
-|@Warnzeichen.Allgemeines_Warnzeichen(10)|`Allgemeines_Warnzeichen.jpg`|`@Warnzeichen.Allgemeines_Warnzeichen(10)`|
-|@Warnzeichen.Explosionsfaehige_Atmosphaere(10)|`Explosionsfähige_Atmosphäre.jpg`|`@Warnzeichen.Explosionsfaehige_Atmosphaere(10)`|
-|@Warnzeichen.Flurfoerderzeugen(10)|`Flurförderzeugen.jpg`|`@Warnzeichen.Flurfoerderzeugen(10)`|
-|@Warnzeichen.Elektrische_Spannung(10)|`Elektrische_Spannung.jpg`|`@Warnzeichen.Elektrische_Spannung(10)`|
-|@Warnzeichen.Niedrige_Temperatur_Frost(10)|`Niedrige_Temperatur_Frost.jpg`|`@Warnzeichen.Niedrige_Temperatur_Frost(10)`|
-|@Warnzeichen.Magnetische_Felder(10)|`Magnetische_Felder.jpg`|`@Warnzeichen.Magnetische_Felder(10)`|
-|@Warnzeichen.Absturzgefahr(10)|`Absturzgefahr.jpg`|`@Warnzeichen.Absturzgefahr(10)`|
-|@Warnzeichen.Biogefaehrdung(10)|`Biogefährdung.jpg`|`@Warnzeichen.Biogefaehrdung(10)`|
-|@Warnzeichen.Radioaktive_Stoffe(10)|`Radioaktive_Stoffe.jpg`|`@Warnzeichen.Radioaktive_Stoffe(10)`|
-|@Warnzeichen.Rutschgefahr(10)|`Rutschgefahr.jpg`|`@Warnzeichen.Rutschgefahr(10)`|
-|@Warnzeichen.Automatischer_Anlauf(10)|`Automatischer_Anlauf.jpg`|`@Warnzeichen.Automatischer_Anlauf(10)`|
-|@Warnzeichen.Heisse_Oberflaeche(10)|`Heiße_Oberfläche.jpg`|`@Warnzeichen.Heisse_Oberflaeche(10)`|
-|@Warnzeichen.Nicht_ionisierende_Strahlung(10)|`Nicht_ionisierende_Strahlung.jpg`|`@Warnzeichen.Nicht_ionisierende_Strahlung(10)`|
-|@Warnzeichen.Schwebende_Last(10)|`Schwebende_Last.jpg`|`@Warnzeichen.Schwebende_Last(10)`|
-|@Warnzeichen.Explosionsfaehige_Stoffe(10)|`Explosionsfähige_Stoffe.jpg`|`@Warnzeichen.Explosionsfaehige_Stoffe(10)`|
-|@Warnzeichen.Laserstrahl(10)|`Laserstrahl.jpg`|`@Warnzeichen.Laserstrahl(10)`|
-|@Warnzeichen.Giftige_Stoffe(10)|`Giftige_Stoffe.jpg`|`@Warnzeichen.Giftige_Stoffe(10)`|
+|@Warnzeichen.Brandfoerdernde_Stoffe(10)|_Brandfördernde Stoffe_|`@Warnzeichen.Brandfoerdernde_Stoffe(10)`|
+|@Warnzeichen.Hindernisse_am_Boden(10)|_Hindernisse am Boden_|`@Warnzeichen.Hindernisse_am_Boden(10)`|
+|@Warnzeichen.Aetzende_Stoffe(10)|_Ätzende Stoffe_|`@Warnzeichen.Aetzende_Stoffe(10)`|
+|@Warnzeichen.Allgemeines_Warnzeichen(10)|_Allgemeines Warnzeichen_|`@Warnzeichen.Allgemeines_Warnzeichen(10)`|
+|@Warnzeichen.Explosionsfaehige_Atmosphaere(10)|_Explosionsfähige Atmosphäre_|`@Warnzeichen.Explosionsfaehige_Atmosphaere(10)`|
+|@Warnzeichen.Flurfoerderzeugen(10)|_Flurförderzeugen_|`@Warnzeichen.Flurfoerderzeugen(10)`|
+|@Warnzeichen.Elektrische_Spannung(10)|_Elektrische Spannung_|`@Warnzeichen.Elektrische_Spannung(10)`|
+|@Warnzeichen.Niedrige_Temperatur_Frost(10)|_Niedrige Temperatur Frost_|`@Warnzeichen.Niedrige_Temperatur_Frost(10)`|
+|@Warnzeichen.Magnetische_Felder(10)|_Magnetische Felder_|`@Warnzeichen.Magnetische_Felder(10)`|
+|@Warnzeichen.Absturzgefahr(10)|_Absturzgefahr_|`@Warnzeichen.Absturzgefahr(10)`|
+|@Warnzeichen.Biogefaehrdung(10)|_Biogefährdung_|`@Warnzeichen.Biogefaehrdung(10)`|
+|@Warnzeichen.Radioaktive_Stoffe(10)|_Radioaktive Stoffe_|`@Warnzeichen.Radioaktive_Stoffe(10)`|
+|@Warnzeichen.Rutschgefahr(10)|_Rutschgefahr_|`@Warnzeichen.Rutschgefahr(10)`|
+|@Warnzeichen.Automatischer_Anlauf(10)|_Automatischer Anlauf_|`@Warnzeichen.Automatischer_Anlauf(10)`|
+|@Warnzeichen.Heisse_Oberflaeche(10)|_Heiße Oberfläche_|`@Warnzeichen.Heisse_Oberflaeche(10)`|
+|@Warnzeichen.Nicht_ionisierende_Strahlung(10)|_Nicht ionisierende Strahlung_|`@Warnzeichen.Nicht_ionisierende_Strahlung(10)`|
+|@Warnzeichen.Schwebende_Last(10)|_Schwebende Last_|`@Warnzeichen.Schwebende_Last(10)`|
+|@Warnzeichen.Explosionsfaehige_Stoffe(10)|_Explosionsfähige Stoffe_|`@Warnzeichen.Explosionsfaehige_Stoffe(10)`|
+|@Warnzeichen.Laserstrahl(10)|_Laserstrahl_|`@Warnzeichen.Laserstrahl(10)`|
+|@Warnzeichen.Giftige_Stoffe(10)|_Giftige Stoffe_|`@Warnzeichen.Giftige_Stoffe(10)`|
 
 ### Leitern
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Leitern.Ebener_und_tragfaehiger_Untergrund(10)|`Ebener_und_tragfähiger_Untergrund.jpg`|`@Leitern.Ebener_und_tragfaehiger_Untergrund(10)`|
-|@Leitern.Witterungsbedingungen(10)|`Witterungsbedingungen.jpg`|`@Leitern.Witterungsbedingungen(10)`|
-|@Leitern.Maximale_Belastung(10)|`Maximale_Belastung.jpg`|`@Leitern.Maximale_Belastung(10)`|
-|@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)|`Die_obersten_4_Sprossen_nicht_besteigen.jpg`|`@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)`|
-|@Leitern.Nur_eine_Person(10)|`Nur_eine_Person.jpg`|`@Leitern.Nur_eine_Person(10)`|
-|@Leitern.Nicht_als_Anlegeleiter_nutzen(10)|`Nicht_als_Anlegeleiter_nutzen.jpg`|`@Leitern.Nicht_als_Anlegeleiter_nutzen(10)`|
-|@Leitern.Mindestens_1_m_Ueberstand(10)|`Mindestens_1_m_Überstand.jpg`|`@Leitern.Mindestens_1_m_Ueberstand(10)`|
-|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)|`Stahlspitzen_auf_nachgiebigem_Untergrund.jpg`|`@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)`|
-|@Leitern.Anlegewinkel_beachten(10)|`Anlegewinkel_beachten.jpg`|`@Leitern.Anlegewinkel_beachten(10)`|
-|@Leitern.Nicht_hinauslehnen(10)|`Nicht_hinauslehnen.jpg`|`@Leitern.Nicht_hinauslehnen(10)`|
-|@Leitern.Nicht_uebertreten(10)|`Nicht_übertreten.jpg`|`@Leitern.Nicht_uebertreten(10)`|
-|@Leitern.Spreizsicherung_einlegen(10)|`Spreizsicherung_einlegen.jpg`|`@Leitern.Spreizsicherung_einlegen(10)`|
-|@Leitern.Gespannte_Spreizvorrichtung(10)|`Gespannte_Spreizvorrichtung.jpg`|`@Leitern.Gespannte_Spreizvorrichtung(10)`|
-|@Leitern.Nicht_uebersteigen(10)|`Nicht_übersteigen.jpg`|`@Leitern.Nicht_uebersteigen(10)`|
-|@Leitern.Nur_an_sichere_Flaechen_anlegen(10)|`Nur_an_sichere_Flächen_anlegen.jpg`|`@Leitern.Nur_an_sichere_Flaechen_anlegen(10)`|
-|@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)|`Die_obersten_3_Sprossen_nicht_besteigen.jpg`|`@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)`|
+|@Leitern.Ebener_und_tragfaehiger_Untergrund(10)|_Ebener und tragfähiger Untergrund_|`@Leitern.Ebener_und_tragfaehiger_Untergrund(10)`|
+|@Leitern.Witterungsbedingungen(10)|_Witterungsbedingungen_|`@Leitern.Witterungsbedingungen(10)`|
+|@Leitern.Maximale_Belastung(10)|_Maximale Belastung_|`@Leitern.Maximale_Belastung(10)`|
+|@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)|_Die obersten 4 Sprossen nicht besteigen_|`@Leitern.Die_obersten_4_Sprossen_nicht_besteigen(10)`|
+|@Leitern.Nur_eine_Person(10)|_Nur eine Person_|`@Leitern.Nur_eine_Person(10)`|
+|@Leitern.Nicht_als_Anlegeleiter_nutzen(10)|_Nicht als Anlegeleiter nutzen_|`@Leitern.Nicht_als_Anlegeleiter_nutzen(10)`|
+|@Leitern.Mindestens_1_m_Ueberstand(10)|_Mindestens 1 m Überstand_|`@Leitern.Mindestens_1_m_Ueberstand(10)`|
+|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)|_Stahlspitzen auf nachgiebigem Untergrund_|`@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)`|
+|@Leitern.Anlegewinkel_beachten(10)|_Anlegewinkel beachten_|`@Leitern.Anlegewinkel_beachten(10)`|
+|@Leitern.Nicht_hinauslehnen(10)|_Nicht hinauslehnen_|`@Leitern.Nicht_hinauslehnen(10)`|
+|@Leitern.Nicht_uebertreten(10)|_Nicht übertreten_|`@Leitern.Nicht_uebertreten(10)`|
+|@Leitern.Spreizsicherung_einlegen(10)|_Spreizsicherung einlegen_|`@Leitern.Spreizsicherung_einlegen(10)`|
+|@Leitern.Gespannte_Spreizvorrichtung(10)|_Gespannte Spreizvorrichtung_|`@Leitern.Gespannte_Spreizvorrichtung(10)`|
+|@Leitern.Nicht_uebersteigen(10)|_Nicht übersteigen_|`@Leitern.Nicht_uebersteigen(10)`|
+|@Leitern.Nur_an_sichere_Flaechen_anlegen(10)|_Nur an sichere Flächen anlegen_|`@Leitern.Nur_an_sichere_Flaechen_anlegen(10)`|
+|@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)|_Die obersten 3 Sprossen nicht besteigen_|`@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)`|
 
 ### Rettungszeichen
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Rettungszeichen.Notdusche(10)|`Notdusche.jpg`|`@Rettungszeichen.Notdusche(10)`|
-|@Rettungszeichen.Notausstieg(10)|`Notausstieg.jpg`|`@Rettungszeichen.Notausstieg(10)`|
-|@Rettungszeichen.Richtungspfeil_rechts(10)|`Richtungspfeil_rechts.jpg`|`@Rettungszeichen.Richtungspfeil_rechts(10)`|
-|@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)|`Öffentliche_Rettungsausrüstung.jpg`|`@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)`|
-|@Rettungszeichen.Erste_Hilfe(10)|`Erste_Hilfe.jpg`|`@Rettungszeichen.Erste_Hilfe(10)`|
-|@Rettungszeichen.Rettungsweg_Notausgang_rechts(10)|`Rettungsweg_Notausgang_rechts.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang_rechts(10)`|
-|@Rettungszeichen.Notausgang_rechts(10)|`Notausgang_rechts.jpg`|`@Rettungszeichen.Notausgang_rechts(10)`|
-|@Rettungszeichen.Notruftelefon(10)|`Notruftelefon.jpg`|`@Rettungszeichen.Notruftelefon(10)`|
-|@Rettungszeichen.Defibrillator(10)|`Defibrillator.jpg`|`@Rettungszeichen.Defibrillator(10)`|
-|@Rettungszeichen.Richtungspfeil_rechts_unten(10)|`Richtungspfeil_rechts_unten.jpg`|`@Rettungszeichen.Richtungspfeil_rechts_unten(10)`|
-|@Rettungszeichen.Arzt(10)|`Arzt.jpg`|`@Rettungszeichen.Arzt(10)`|
-|@Rettungszeichen.Notausstieg_mit_Leiter(10)|`Notausstieg_mit_Leiter.jpg`|`@Rettungszeichen.Notausstieg_mit_Leiter(10)`|
-|@Rettungszeichen.Rettungsweg_Notausgang(10)|`Rettungsweg_Notausgang.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang(10)`|
-|@Rettungszeichen.Augenspueleinrichtung(10)|`Augenspüleinrichtung.jpg`|`@Rettungszeichen.Augenspueleinrichtung(10)`|
-|@Rettungszeichen.Sammelstelle(10)|`Sammelstelle.jpg`|`@Rettungszeichen.Sammelstelle(10)`|
-|@Rettungszeichen.Rettungsweg_Notausgang_links(10)|`Rettungsweg_Notausgang_links.jpg`|`@Rettungszeichen.Rettungsweg_Notausgang_links(10)`|
-|@Rettungszeichen.Rettungsausstieg(10)|`Rettungsausstieg.jpg`|`@Rettungszeichen.Rettungsausstieg(10)`|
-|@Rettungszeichen.Krankentrage(10)|`Krankentrage.jpg`|`@Rettungszeichen.Krankentrage(10)`|
+|@Rettungszeichen.Notdusche(10)|_Notdusche_|`@Rettungszeichen.Notdusche(10)`|
+|@Rettungszeichen.Notausstieg(10)|_Notausstieg_|`@Rettungszeichen.Notausstieg(10)`|
+|@Rettungszeichen.Richtungspfeil_rechts(10)|_Richtungspfeil rechts_|`@Rettungszeichen.Richtungspfeil_rechts(10)`|
+|@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)|_Öffentliche Rettungsausrüstung_|`@Rettungszeichen.Oeffentliche_Rettungsausruestung(10)`|
+|@Rettungszeichen.Erste_Hilfe(10)|_Erste Hilfe_|`@Rettungszeichen.Erste_Hilfe(10)`|
+|@Rettungszeichen.Rettungsweg_Notausgang_rechts(10)|_Rettungsweg Notausgang rechts_|`@Rettungszeichen.Rettungsweg_Notausgang_rechts(10)`|
+|@Rettungszeichen.Notausgang_rechts(10)|_Notausgang rechts_|`@Rettungszeichen.Notausgang_rechts(10)`|
+|@Rettungszeichen.Notruftelefon(10)|_Notruftelefon_|`@Rettungszeichen.Notruftelefon(10)`|
+|@Rettungszeichen.Defibrillator(10)|_Defibrillator_|`@Rettungszeichen.Defibrillator(10)`|
+|@Rettungszeichen.Richtungspfeil_rechts_unten(10)|_Richtungspfeil rechts unten_|`@Rettungszeichen.Richtungspfeil_rechts_unten(10)`|
+|@Rettungszeichen.Arzt(10)|_Arzt_|`@Rettungszeichen.Arzt(10)`|
+|@Rettungszeichen.Notausstieg_mit_Leiter(10)|_Notausstieg mit Leiter_|`@Rettungszeichen.Notausstieg_mit_Leiter(10)`|
+|@Rettungszeichen.Rettungsweg_Notausgang(10)|_Rettungsweg Notausgang_|`@Rettungszeichen.Rettungsweg_Notausgang(10)`|
+|@Rettungszeichen.Augenspueleinrichtung(10)|_Augenspüleinrichtung_|`@Rettungszeichen.Augenspueleinrichtung(10)`|
+|@Rettungszeichen.Sammelstelle(10)|_Sammelstelle_|`@Rettungszeichen.Sammelstelle(10)`|
+|@Rettungszeichen.Rettungsweg_Notausgang_links(10)|_Rettungsweg Notausgang links_|`@Rettungszeichen.Rettungsweg_Notausgang_links(10)`|
+|@Rettungszeichen.Rettungsausstieg(10)|_Rettungsausstieg_|`@Rettungszeichen.Rettungsausstieg(10)`|
+|@Rettungszeichen.Krankentrage(10)|_Krankentrage_|`@Rettungszeichen.Krankentrage(10)`|
 
 ### Gefahrstoffe
 
 |Bild|Name|Befehl|
 |---|---|---|
-|@Gefahrstoffe.Giftig_Sehr_giftig(10)|`Giftig_Sehr_giftig.gif`|`@Gefahrstoffe.Giftig_Sehr_giftig(10)`|
-|@Gefahrstoffe.Entzuendlich(10)|`Entzündlich.gif`|`@Gefahrstoffe.Entzuendlich(10)`|
-|@Gefahrstoffe.Komprimierte_Gase(10)|`Komprimierte_Gase.gif`|`@Gefahrstoffe.Komprimierte_Gase(10)`|
-|@Gefahrstoffe.Umweltgefaehrlich(10)|`Umweltgefährlich.gif`|`@Gefahrstoffe.Umweltgefaehrlich(10)`|
-|@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)|`Reizend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)`|
-|@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)|`Krebserregend_Gesundheitsschädlich.gif`|`@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)`|
-|@Gefahrstoffe.Aetzend_Reizend(10)|`Ätzend_Reizend.gif`|`@Gefahrstoffe.Aetzend_Reizend(10)`|
-|@Gefahrstoffe.Oxidierend(10)|`Oxidierend.gif`|`@Gefahrstoffe.Oxidierend(10)`|
-|@Gefahrstoffe.Explosiv(10)|`Explosiv.gif`|`@Gefahrstoffe.Explosiv(10)`|
+|@Gefahrstoffe.Giftig_Sehr_giftig(10)|_Giftig Sehr giftig_|`@Gefahrstoffe.Giftig_Sehr_giftig(10)`|
+|@Gefahrstoffe.Entzuendlich(10)|_Entzündlich_|`@Gefahrstoffe.Entzuendlich(10)`|
+|@Gefahrstoffe.Komprimierte_Gase(10)|_Komprimierte Gase_|`@Gefahrstoffe.Komprimierte_Gase(10)`|
+|@Gefahrstoffe.Umweltgefaehrlich(10)|_Umweltgefährlich_|`@Gefahrstoffe.Umweltgefaehrlich(10)`|
+|@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)|_Reizend Gesundheitsschädlich_|`@Gefahrstoffe.Reizend_Gesundheitsschaedlich(10)`|
+|@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)|_Krebserregend Gesundheitsschädlich_|`@Gefahrstoffe.Krebserregend_Gesundheitsschaedlich(10)`|
+|@Gefahrstoffe.Aetzend_Reizend(10)|_Ätzend Reizend_|`@Gefahrstoffe.Aetzend_Reizend(10)`|
+|@Gefahrstoffe.Oxidierend(10)|_Oxidierend_|`@Gefahrstoffe.Oxidierend(10)`|
+|@Gefahrstoffe.Explosiv(10)|_Explosiv_|`@Gefahrstoffe.Explosiv(10)`|
