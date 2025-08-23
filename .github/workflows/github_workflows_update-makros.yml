@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   run-makros-script:
@@ -16,17 +17,28 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
+      - name: Checkout code repo
+        uses: actions/checkout@v4
+        with:
+          repository: Ifi-DiAgnostiK-Project/LiaScript_Image_Makro_Generator
+          ref: main
+          path: external/code
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
           pip install --upgrade pip
+          pip install poetry
+          cd external/code
+          poetry install
 
-      - name: Run create_makros.py
-        run: python create_makros.py
+      - name: Create Makros with Module
+        run: |
+          poetry -P=external/code run python -m liascript_img_makro_gen.main --config config.yaml
 
       - name: Commit and push changes
         env:
