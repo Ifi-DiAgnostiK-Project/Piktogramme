@@ -1,0 +1,58 @@
+makros_setup: |
+  author: "Volker Göhler, Niklas Werner"
+  email: "volker.goehler@informatik.tu-freiberg"
+  version: "0.2.4"
+  edit: true
+  title: "DiAgnostiK ISO 7010 Sicherheitssymbole Makros"
+  tags: "Wissensspeicher"
+  
+  @diagnostik_image: <img src='@0/@1' alt='@1' style='height: @2rem'>
+
+ignore_dirs:
+  - Collections
+
+repository: "https://github.com/Ifi-DiAgnostiK-Project/Bildersammlung"
+makro_file: "makros.md"
+image_folder: "img"
+
+# use raw_location to place the location to the file
+how_to_use: |
+  # Link zu LiaScript
+  [![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?{raw_location})
+  
+  > Diese Datei ist automatisch generiert und enthält Makros für die DiAgnostiK-Bilder der Gewerke.
+  
+  # Anleitung
+  > Der Befehl zum einbinden eines Bildes lautet `@<Bereich>.<Name>(Größe)`.
+  > Hängt man statt der Größe `.src` an, so wird der Link zum Bild angezeigt. `@<Bereich>.<Name>.src`
+
+  - Der Bereich ist der Ordnername, in dem sich das Bild befindet.
+  - Der Name ist der Dateiname ohne Endung.
+  - Die Größe ist in Zeilen angegeben, die das Bild hoch sein soll.
+
+  Alle Bilder sowie ihre Bereiche und die Befehle um sie zu laden sind in den Tabellen weiter unten abgebildet.
+
+  **Die Anzeige benötigt LiaScript!**
+  
+  ## Beispiel
+  
+  `@Brandschutzzeichen.Brandbekaempfung(10)`
+
+  @Brandschutzzeichen.Brandbekaempfung(10)
+
+  `@Brandschutzzeichen.Brandbekaempfung.src`
+
+  @Brandschutzzeichen.Brandbekaempfung.src
+
+  `@Gefahrstoffe.Explosiv(10)`
+
+  @Gefahrstoffe.Explosiv(10)
+
+  `@Gefahrstoffe.Explosiv.src`
+
+  @Gefahrstoffe.Explosiv.src
+
+  ## Bereiche und Befehle
+
+  Im Nachfolgenden sind alle Bilder aller Bereiche und passende Befehle aufgelistet, die in dieser Sammlung enthalten sind. 
+
