@@ -11,7 +11,7 @@ makros_setup: |
 ignore_dirs:
   - Collections
 
-repository: "https://github.com/Ifi-DiAgnostiK-Project/Bildersammlung"
+repository: "https://github.com/Ifi-DiAgnostiK-Project/Piktogramme"
 makro_file: "makros.md"
 image_folder: "img"
 
